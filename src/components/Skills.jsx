@@ -143,7 +143,7 @@ const Skills = () => {
                 <hr />
                 <Card.Text className="card-text d-flex justify-content-start flex-column">
                   {skills.frontend.map((skill, index) => (
-                    <span className="p-2" key={index}>
+                    <span className="p-2" style={{margin:"auto"}} key={index}>
                       <a
                         className="text-dark text-decoration-none"
                         href={skill.link}
@@ -175,7 +175,7 @@ const Skills = () => {
                 <hr />
                 <Card.Text className="card-text d-flex justify-content-start flex-column" >
                   {skills.backend.map((skill, index) => (
-                    <span className="p-2" key={index}>
+                    <span className="p-2" style={{margin:"auto"}} key={index}>
                       <a
                         className="text-dark text-decoration-none"
                         href={skill.link}
@@ -197,7 +197,7 @@ const Skills = () => {
             </Card>
 
             {/* Hosting Platforms */}
-            <Card className="focus mt-2 mb-2 ">
+            <Card className="focus mt-5 mb-2 ">
               <Card.Body>
                 <Card.Title className="text-center  card-title">
                   Hosting Platforms
@@ -205,7 +205,7 @@ const Skills = () => {
                 <hr />
                 <Card.Text className="card-text d-flex justify-content-start flex-column">
                   {skills.hostingPlatforms.map((skill, index) => (
-                    <span className="p-2" key={index}>
+                    <span className="p-2" style={{margin:"auto"}} key={index}>
                       <a
                         className="text-dark text-decoration-none"
                         href={skill.link}
@@ -237,7 +237,7 @@ const Skills = () => {
                 <hr />
                 <Card.Text className="card-text d-flex justify-content-start flex-column">
                   {skills.programmingLanguages.map((skill, index) => (
-                    <span className="p-2" key={index}>
+                    <span className="p-2" style={{margin:"auto"}} key={index}>
                       <a
                         className="text-dark text-decoration-none"
                         href={skill.link}
@@ -260,7 +260,7 @@ const Skills = () => {
 
             {/* Database */}
 
-            <Card className="focus mt-2 mb-2">
+            <Card className="focus mt-5 mb-2">
               <Card.Body>
                 <Card.Title className="text-center  card-title">
                   Database
@@ -268,7 +268,7 @@ const Skills = () => {
                 <hr />
                 <Card.Text className="card-text d-flex justify-content-start flex-column">
                   {skills.databases.map((skill, index) => (
-                    <span className="p-2" key={index}>
+                    <span className="p-2" style={{margin:"auto"}} key={index}>
                       <a
                         className="text-dark text-decoration-none"
                         href={skill.link}
@@ -290,14 +290,14 @@ const Skills = () => {
             </Card>
             {/* Version Control */}
 
-            <Card className="focus mt-2 mb-2">
+            <Card className="focus mt-4 mb-2">
               <Card.Body>
                 <Card.Title className="text-center  card-title">
                   Version <br /> Control{" "}
                 </Card.Title>
                 <hr />
                 <Card.Text className="card-text d-flex justify-content-start flex-column">
-                  <span className="p-2">
+                  <span className="p-2" style={{margin:"auto"}}>
                     <a
                       className="text-dark text-decoration-none"
                       href={skills.versionControl[0].link}

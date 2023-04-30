@@ -1,8 +1,10 @@
 .focus {
   transition: transform 0.3s;
+  /* text-align: left; */
 }
 .skill-container{
   background:linear-gradient(#afd9d5, #4dcec1) ;
+
 }
 .focus:hover {
   transform: scale(1.05);
@@ -11,16 +13,20 @@
   font-size: 2em;
   font-weight: 700;
 }
+.text-dark{
+  text-align: left;
+  margin: auto;
+}
 
 .image-style {
-  width: 3em;
-  /* height: 2.5em; */
+  width: 5em;
 }
 
 .font-details {
   font-size: 3em;
   font-weight: 500;
   color: #231d5af8;
+  /* text-align: left; */
 }
 
 .font-details-b {

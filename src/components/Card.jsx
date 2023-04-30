@@ -8,10 +8,10 @@ const Card = ({ data }) => {
         <img src={data.img} className="img-fluid border project-image" alt="" />
         <h4 className="text-center my-2 font-weight-bold">{data.name}</h4>
         <p className="px-2 text-center">{data.desc}</p>
-        <div className="row">
+        <div className="live-btn">
           <div className="col-md-6">
             <a
-              className="btn btn-outline-dark btn-block btn-sm"
+              className="btn btn-outline-dark  btn-sm"
               href={data.demoLink}
               target="_blank"
               rel="noreferrer"
@@ -21,7 +21,9 @@ const Card = ({ data }) => {
           </div>
           <div className="col-md-6">
             <a
-              className="btn btn-outline-dark btn-block btn-sm"
+             style={{marginLeft:"170px"}}
+
+              className="btn btn-outline-dark  btn-sm github_btn"
               href={data.codeLink}
               target="_blank"
               rel="noreferrer"
@@ -29,7 +31,7 @@ const Card = ({ data }) => {
               Github Code
             </a>
           </div>
-          <div className="d-flex justify-content-center px-5 py-3 w-100 flex-wrap">
+          {/* <div className="d-flex justify-content-center px-5 py-3 w-100 flex-wrap">
             {data.techstack.map((elem, index) => (
               <img
                 key={index}
@@ -39,7 +41,7 @@ const Card = ({ data }) => {
                 alt=""
               />
             ))}
-          </div>
+          </div>  */}
         </div>
       </div>
     </div>
