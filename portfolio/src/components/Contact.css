@@ -1,0 +1,24 @@
+.contact-me {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  text-decoration: none;
+}
+
+.contact-me span {
+  margin: 0 10px;
+  color: rgb(74, 74, 74);
+}
+
+.contact-me > span:hover {
+  color: black;
+}
+.contact-container {
+  /* background-color: #1f8ee0; */
+  /* background-color: rgba(0, 0, 0, 0.326); */
+  background-color: #afd9d5;
+  background:linear-gradient( #4dcec1,#afd9d5) ;
+
+  padding: 40px;
+}
