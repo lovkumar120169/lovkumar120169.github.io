@@ -59,15 +59,18 @@
     align-items: center;
     justify-content: center;
   }
-  .live-btn a:last-child{
-   margin-left: 20px;
+  .live-btn div a:last-child{
+
   }
 }
 
 
 .live-btn{
-  padding: 30px;
+  /* padding: 30px; */
   display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin: auto;
  }
 .stats-direction{
   display: flex;

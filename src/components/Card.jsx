@@ -19,9 +19,10 @@ const Card = ({ data }) => {
               Live
             </a>
           </div>
+          {/* style={{marginLeft:"170px"}} */}
           <div className="col-md-6">
             <a
-             style={{marginLeft:"170px"}}
+             
 
               className="btn btn-outline-dark  btn-sm github_btn"
               href={data.codeLink}
