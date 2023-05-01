@@ -13,6 +13,27 @@ const MyCarousal = () => {
   return (
     <div id="home">
       <Carousel controls={false} indicators interval={5000} pause={false}>
+      <Carousel.Item>
+          <img
+            className="d-block w-100 custom-img"
+            src={Slide3}
+            alt="Third slide"
+          />
+        </Carousel.Item>
+      <Carousel.Item>
+          <img
+            className="d-block w-100 custom-img"
+            src={Slide5}
+            alt="Third slide"
+          />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block w-100 custom-img"
+            src={Slide6}
+            alt="Third slide"
+          />
+        </Carousel.Item>
         <Carousel.Item>
           <img
             className="d-block w-100 custom-img"
@@ -27,13 +48,7 @@ const MyCarousal = () => {
             alt="Second slide"
           />
         </Carousel.Item>
-        <Carousel.Item>
-          <img
-            className="d-block w-100 custom-img"
-            src={Slide3}
-            alt="Third slide"
-          />
-        </Carousel.Item>
+        
         <Carousel.Item>
           <img
             className="d-block w-100 custom-img"
@@ -41,20 +56,7 @@ const MyCarousal = () => {
             alt="Third slide"
           />
         </Carousel.Item>
-        <Carousel.Item>
-          <img
-            className="d-block w-100 custom-img"
-            src={Slide5}
-            alt="Third slide"
-          />
-        </Carousel.Item>
-        <Carousel.Item>
-          <img
-            className="d-block w-100 custom-img"
-            src={Slide6}
-            alt="Third slide"
-          />
-        </Carousel.Item>
+        
       </Carousel>
       {/* <ScrollDown /> */}
 

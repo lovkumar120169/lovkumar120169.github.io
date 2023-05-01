@@ -14,6 +14,7 @@
     "bootstrap": "^5.2.3",
     "font-awesome": "^4.7.0",
     "framer-motion": "^10.12.4",
+    "gh-pages": "^5.0.0",
     "hamburger-react": "^2.5.0",
     "lm-react-bootstrap-navbar": "^1.1.1",
     "react": "^18.2.0",

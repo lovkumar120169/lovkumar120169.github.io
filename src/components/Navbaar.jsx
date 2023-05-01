@@ -22,7 +22,7 @@ export const Navbaar = () => {
       >
         <Container>
         <Nav.Link style={{display:"flex",alignItems:"center",justifyContent:"center", color:"white",fontSize:"25px",fontFamily:"'Rouge Script', cursive"}} href="#about">
-                <RxChevronLeft />Luv Kumar<RxSlash/><RxChevronRight />
+                <RxChevronLeft />Lov Kumar<RxSlash/><RxChevronRight />
               </Nav.Link>
           
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
