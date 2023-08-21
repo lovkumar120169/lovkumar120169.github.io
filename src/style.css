@@ -24,7 +24,7 @@
   color: red;
   /* background-color: rgba(0, 0, 0, 0.332); */
   /* background-color: #afd9d5; */
-  background:linear-gradient(#4dcec1,#afd9d5) ;
+  background:linear-gradient(rgb(152,238,204),rgba(152, 238, 204, 0.619)) ;
 }
 .home-about-social-text{
   margin-top: 5px;
@@ -96,6 +96,7 @@
 .home-about-body {
   padding-top: 50px;
   font-size: 1.2em !important;
+  font-weight: 500;
   text-align: left;
 }
 .purple {

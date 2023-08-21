@@ -18,7 +18,7 @@
     /* background-color: #1f8ee0; */
     /* background-color: rgba(0, 0, 0, 0.326); */
     background-color: #afd9d5;
-    background:linear-gradient(#afd9d5, #4dcec1) ;
+    background:linear-gradient(rgba(152, 238, 204, 0.619), rgb(152,238,204)) ;
   
     padding: 40px;
   }
@@ -62,7 +62,7 @@
     position: absolute;
     width: 20px;
     height: 20px;
-    background-color: rgb(25 135 84);
+    background-color: rgb(33 37 41);
     border-radius: 50%;
     right: -10.1px;
     top: 40px;
@@ -100,7 +100,7 @@
     position: absolute;
     width: 6px;
     height: 100%;
-    background: rgb(25 135 84);
+    background: rgb(33 37 41);
     top: 0;
     left: 50%;
     margin-left: -3px;

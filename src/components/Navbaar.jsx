@@ -50,7 +50,7 @@ export const Navbaar = () => {
                   variant="success"
                   href={resume}
                   target="_blank"
-                  style={{ display: "flex", alignItems: "center", justifyContent: "center" }}
+                  style={{ display: "flex", alignItems: "center", justifyContent: "center",backgroundColor:"rgb(152,238,204)",border:"none",color:"black" }}
                 >
                   <CgFileDocument style={{ marginBottom: "3px", marginRight: "5px" }} />
                   Resume

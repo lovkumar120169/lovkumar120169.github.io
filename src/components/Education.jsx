@@ -22,16 +22,22 @@ export const Education = () => {
                                 {/* <img src={masaiSchoollogo} alt="" /> */}
                             </div>
                             <div className="text-box-edu">
-                                <div className='namelogo' style={{ display: "flex", justifyContent: "space-between", alignItems: "center",marginBottom:"20px" }}>
+                                <div className='namelogo' style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "20px" }}>
                                     <div>
-                                        <h3>Masai School</h3>
-                                        <small style={{fontWeight:"600"}}>Nov 2022  --  Aug 2023</small>
+                                        <h4>Full stack web development (Full-Time)</h4>
+                                        <small style={{ fontWeight: "600" }}>Nov 2022  --  Aug 2023</small>
                                     </div>
-                                    <img src={masaiSchoollogo} alt="" width={"12%"} />
+
                                 </div>
                                 <hr />
-                                <p>Address :   Bengaluru, Karnataka</p>
-                                <p>Course :  Full stack web development (Full-Time)</p>
+                                <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
+                                    <div>
+                                        <p style={{ fontWeight: "600", fontSize: "18px" }}>Institute :  Masai School</p>
+                                        <p>Address :   Bengaluru, Karnataka</p>
+                                    </div>
+                                    <img src={masaiSchoollogo} alt="" width={"20%"} />
+                                </div>
+
                                 <span className='left-container-arrow'></span>
                             </div>
                         </div>
@@ -41,16 +47,22 @@ export const Education = () => {
                                 {/* <img src={culogo} alt="" /> */}
                             </div>
                             <div className="text-box-edu">
-                                <div className='namelogo' style={{ display: "flex", justifyContent: "space-between", alignItems: "center",marginBottom:"20px" }}>
+                                <div className='namelogo' style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "20px" }}>
                                     <div>
-                                        <h3>Chandigarh University</h3>
-                                        <small style={{fontWeight:"600"}}>2022 -- 2024</small>
+                                        <h4>Master of Computer Application(MCA)</h4>
+                                        <small style={{ fontWeight: "600" }}>2022 -- 2024</small>
                                     </div>
-                                    <img src={culogo} alt="" width={"12%"} />
                                 </div>
                                 <hr />
-                                <p>Address :  Mohali, Punjab</p>
-                                <p>Course :  Master of Computer Application(MCA)</p>
+                                <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
+                                    <div>
+                                        <p style={{ fontWeight: "600", fontSize: "18px" }}>Institute :  Chandigarh University</p>
+                                        <p>Address :  Mohali, Punjab</p>
+                                    </div>
+                                    <img src={culogo} alt="" width={"12%"} />
+
+                                </div>
+
                                 <span className='right-container-arrow'></span>
                             </div>
                         </div>
@@ -60,17 +72,22 @@ export const Education = () => {
                                 {/* <img src={citycollegelogo} alt="" /> */}
                             </div>
                             <div className="text-box-edu">
-                                <div className='namelogo' style={{ display: "flex", justifyContent: "space-around", alignItems: "center",marginBottom:"20px" }}>
+                                <div className='namelogo' style={{ display: "flex", justifyContent: "space-around", alignItems: "center", marginBottom: "20px" }}>
                                     <div>
-                                        <h3>Bokaro Steel City College</h3>
+                                        <h4>Bachelor's in Computer Application (BCA)</h4>
 
-                                        <small style={{fontWeight:"600"}}>2019 -- 2022</small>
+                                        <small style={{ fontWeight: "600" }}>2019 -- 2022</small>
                                     </div>
-                                    <img src={citycollegelogo} alt="" width={"12%"} />
                                 </div>
                                 <hr />
-                                <p>Address :  Bokaro Steel city, Jharkhand</p>
-                                <p>Course :  Bachelor's in Computer Application (BCA)</p>
+                                <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
+                                    <div>
+                                        <p style={{ fontWeight: "600", fontSize: "18px" }}>Institute :  Bokaro Steel City College</p>
+                                        <p>Address :  Bokaro Steel city, Jharkhand</p>
+                                    </div>
+                                    <img src={citycollegelogo} alt="" width={"12%"} />
+
+                                </div>
                                 <span className='left-container-arrow'></span>
                             </div>
                         </div>
