@@ -146,7 +146,7 @@
         left: 31px;
     }
     .container-edu{
-        width: 100%;
+        width: 110%;
         padding-left: 80px;
         padding-right: 25px;
     }
@@ -162,7 +162,7 @@
         left: -14px;
     }
     .text-box-edu{
-        font-size: 13px;
+        font-size: 10px;
     }
     .namelogo img{
         display: none;

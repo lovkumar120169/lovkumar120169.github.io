@@ -10,42 +10,30 @@ const Card = ({ data }) => {
           <h4 className="text-center my-2 font-weight-bold">{data.name}</h4>
           <p className="px-2 text-center">{data.desc}</p>
           <div className="live-btn">
-            <div className="col-md-6">
+            <div className="col-md-6" id="btn-div" >
               <a
                 className="btn btn-outline-dark  btn-sm"
                 href={data.demoLink}
                 target="_blank"
                 rel="noreferrer"
-                style={{ backgroundColor: "rgb(152,238,204)", border: "none", fontWeight: "600", padding: "5px 15px" }}
+                style={{ backgroundColor: "rgb(152,238,204)", border: "none", fontWeight: "600", padding: "5px 15px", width: "100%" }}
               >
                 Live
               </a>
             </div>
-            {/* style={{marginLeft:"170px"}} */}
-            <div className="col-md-6">
+            <div className="col-md-6" id="btn-div">
               <a
 
-
-                className="btn btn-outline-dark  btn-sm github_btn"
+                id="github-btn-1"
+                className="btn btn-outline-dark  btn-sm github-btn-1"
                 href={data.codeLink}
                 target="_blank"
                 rel="noreferrer"
-                style={{ backgroundColor: "rgb(152,238,204)", border: "none", fontWeight: "600", padding: "5px 15px" }}
+
               >
                 Github
               </a>
             </div>
-            {/* <div className="d-flex justify-content-center px-5 py-3 w-100 flex-wrap">
-            {data.techstack.map((elem, index) => (
-              <img
-                key={index}
-                src={elem}
-                width="32px"
-                className="img-fluid mx-2 d-inline-block"
-                alt=""
-              />
-            ))}
-          </div>  */}
           </div>
         </div>
       </div>

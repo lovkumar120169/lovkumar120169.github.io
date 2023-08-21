@@ -30,7 +30,7 @@ export const Education = () => {
 
                                 </div>
                                 <hr />
-                                <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
+                                <div className='namelogo' style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
                                     <div>
                                         <p style={{ fontWeight: "600", fontSize: "18px" }}>Institute :  Masai School</p>
                                         <p>Address :   Bengaluru, Karnataka</p>
@@ -49,12 +49,12 @@ export const Education = () => {
                             <div className="text-box-edu">
                                 <div className='namelogo' style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "20px" }}>
                                     <div>
-                                        <h4>Master of Computer Application(MCA)</h4>
+                                        <h4>Master of Computer Application (MCA)</h4>
                                         <small style={{ fontWeight: "600" }}>2022 -- 2024</small>
                                     </div>
                                 </div>
                                 <hr />
-                                <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
+                                <div  className='namelogo' style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
                                     <div>
                                         <p style={{ fontWeight: "600", fontSize: "18px" }}>Institute :  Chandigarh University</p>
                                         <p>Address :  Mohali, Punjab</p>
@@ -80,7 +80,7 @@ export const Education = () => {
                                     </div>
                                 </div>
                                 <hr />
-                                <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
+                                <div className='namelogo' style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
                                     <div>
                                         <p style={{ fontWeight: "600", fontSize: "18px" }}>Institute :  Bokaro Steel City College</p>
                                         <p>Address :  Bokaro Steel city, Jharkhand</p>
