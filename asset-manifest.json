@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.5dcb1b44.css",
-    "main.js": "/static/js/main.c815a8cd.js",
+    "main.css": "/static/css/main.700ee478.css",
+    "main.js": "/static/js/main.858974e5.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/slide4.jpg": "/static/media/slide4.7e726912bce82b1575be.jpg",
     "static/media/slide6.jpg": "/static/media/slide6.95c4826263384d728336.jpg",
@@ -11,6 +11,7 @@
     "static/media/HolaEx.png": "/static/media/HolaEx.799bb356eecd8d9dd620.png",
     "static/media/Trendz.png": "/static/media/Trendz.dcd37a16992722422aea.png",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/immortalyoga.png": "/static/media/immortalyoga.340e1a0e5269b11b8410.png",
     "static/media/resume.pdf": "/static/media/resume.c1bfd942fce2d5b3842a.pdf",
     "static/media/fontawesome-webfont.eot": "/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
     "static/media/fontawesome-webfont.ttf?v=4.7.0": "/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
@@ -19,6 +20,8 @@
     "static/media/slide1.jpg": "/static/media/slide1.ce2fa051f8347f5452e5.jpg",
     "static/media/luv pic.jpg": "/static/media/luv pic.5bb296e7a89ec0312129.jpg",
     "static/media/fontawesome-webfont.woff2?v=4.7.0": "/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+    "static/media/cityclglogo.png": "/static/media/cityclglogo.59251372c567bbc6159d.png",
+    "static/media/culogo.jpeg": "/static/media/culogo.1b9f8198922ee6f2f4b9.jpeg",
     "static/media/mongodb.svg": "/static/media/mongodb.d89a6eebb2b81e487ffc99f69a3f6ea4.svg",
     "static/media/nodejs.svg": "/static/media/nodejs.52cbf9a89f44655c0375b9e9f88bf9c5.svg",
     "static/media/express.svg": "/static/media/express.75fff9be2f3b289ba7be1f43a08f7a4c.svg",
@@ -35,12 +38,12 @@
     "static/media/git-icon.svg": "/static/media/git-icon.c60b7e5ae8ec2562f23fdddcab300026.svg",
     "static/media/material-ui-1.svg": "/static/media/material-ui-1.fd510ed8518b192069590b04e2e6348a.svg",
     "static/media/vercel.svg": "/static/media/vercel.0d94e923424aa8a93432103a604aa0fb.svg",
-    "main.5dcb1b44.css.map": "/static/css/main.5dcb1b44.css.map",
-    "main.c815a8cd.js.map": "/static/js/main.c815a8cd.js.map",
+    "main.700ee478.css.map": "/static/css/main.700ee478.css.map",
+    "main.858974e5.js.map": "/static/js/main.858974e5.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5dcb1b44.css",
-    "static/js/main.c815a8cd.js"
+    "static/css/main.700ee478.css",
+    "static/js/main.858974e5.js"
   ]
 }
