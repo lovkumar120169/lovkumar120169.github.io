@@ -3,6 +3,7 @@ import { Card } from "./Card";
 import Trendz from "../assets/img/projects/Trendz.png";
 import HolaEx from "../assets/img/projects/HolaEx.png";
 import HelthoCart from "../assets/img/projects/HelthoCart.png";
+import immortalYoga from "../assets/img/projects/immortalyoga.png"
 import "./Project.css";
 export const Projects = () => {
   const project = {
@@ -11,7 +12,7 @@ export const Projects = () => {
         name: "Trendz",
         desc: "Clone of Koovs.com which is a Fashion based E-commerce Platform",
         img: Trendz,
-        demoLink: "https://wondrous-gnome-4959fa.netlify.app/",
+        demoLink: "https://64e20c4112dded6402ff06a8--soft-babka-878124.netlify.app/",
         codeLink: "https://github.com/lovkumar120169/pink-purpose-5182",
         techstack: [
           "/icons/html-5.svg",
@@ -26,7 +27,7 @@ export const Projects = () => {
         name: "HelthO Cart",
         desc: "Clone of Helth Kart.com which is an E-commerce website delivering Healthy Products & Supplements",
         img: HelthoCart,
-        demoLink: "https://glowing-paletas-0e922db.netlify.app/",
+        demoLink: "https://64e20e0ce0168061e85747dd--keen-maamoul-1420db.netlify.app/",
         codeLink: "https://github.com/lovkumar120169/gamy-rate-5438",
         techstack: [
           "/icons/react.svg",
@@ -38,11 +39,11 @@ export const Projects = () => {
         ],
       },
       {
-        name: "Hola-Ex",
-        desc: "Clone of Olx.com which is an E-commerce Platform delivering Used Products Platform delivering Used Products",
-        img: HolaEx,
-        demoLink: "https://verdant-valkyrie-b3f6d0.netlify.app/",
-        codeLink: "https://github.com/asadayyubi/absorbed-porter-6072",
+        name: "Immortal Yoga",
+        desc: "IMMORTAL YOGA offers an array of yoga styles, ranging from the dynamic flow of Vinyasa to the meditative depths of Yin.",
+        img: immortalYoga,
+        demoLink: "https://gleaming-cobbler-bec2a7.netlify.app/",
+        codeLink: "https://github.com/aslammmahetar/nosy-silk-95",
         techstack: [
           "/icons/react.svg",
           "/icons/css-3.svg",

@@ -12,6 +12,7 @@ import Home2 from './components/Home/Home2';
 import MyStats from './components/MyStats';
 import { BrowserRouter } from 'react-router-dom';
 import { ChakraProvider } from '@chakra-ui/react';
+import { Education } from './components/Education';
 
 
 
@@ -23,6 +24,7 @@ function App() {
       <Title />
       <Navbaar />
       <Home2/>
+      <Education/>
       <Skills />
       <ChakraProvider>
       <BrowserRouter>

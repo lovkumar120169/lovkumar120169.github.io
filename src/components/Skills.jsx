@@ -64,6 +64,12 @@ const Skills = () => {
         imgSrc: "https://pbs.twimg.com/profile_images/1244925541448286208/rzylUjaf_400x400.jpg",
         skillName: "Chakra-UI",
       },
+      {
+        link: "https://getbootstrap.com/",
+        imgAltText: "Bootstrap",
+        imgSrc: "https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png",
+        skillName: "Bootstrap",
+      },
     ],
 
     backend: [
