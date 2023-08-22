@@ -6,7 +6,7 @@ import { AiFillGithub, AiFillInstagram, AiOutlineFacebook } from "react-icons/ai
 import { FaLinkedinIn } from "react-icons/fa";
 const Contact = () => {
   return (
-    <div className="contact-container" style={{width:"100%"}}>
+    <div className="contact-container" id="contact" style={{width:"100%"}}>
       <Container id="contact">
         <Row>
           <Col>
@@ -17,7 +17,7 @@ const Contact = () => {
             </h5>
             <br />
             <h5>
-              <a href="mailto:lovkumar120169@gmail.com" className="contact-me">
+              <a href="mailto:lovkumar120169@gmail.com" id="contact-email" className="contact-me">
                 <span>
                   {" "}
                   <i className="fa fa-envelope"></i>
@@ -27,7 +27,7 @@ const Contact = () => {
             </h5>
 
             <h5>
-              <a href="tel:8709330353" className="contact-me">
+              <a href="tel:8709330353" id="contact-phone" className="contact-me">
                 <span>
                   {" "}
                   <i className="fa fa-phone"></i>
@@ -37,7 +37,7 @@ const Contact = () => {
             </h5>
           </Col>
           <div className="home-about-social-links">
-              <div className="social-icons">
+              <div className="social-icons" id="contact-github">
                 <a
                   href="https://github.com/lovkumar120169"
                   target="_blank"
@@ -61,7 +61,7 @@ const Contact = () => {
                 <p className="home-about-social-text">facebook</p>
               </div>
            
-              <div className="social-icons">
+              <div className="social-icons" id="contact-linkedin">
                 <a
                   href="https://www.linkedin.com/in/lov-kumar-47b232235/"
                   target="_blank"

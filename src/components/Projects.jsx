@@ -58,7 +58,7 @@ export const Projects = () => {
     ],
   };
   return (
-    <div className="project-container">
+    <div className="project-container"  id="projects">
       <div id="projects" className="container width">
         <h1 className="pt-3 text-center font-details-b pb-3">Projects</h1>
         <div className="row">

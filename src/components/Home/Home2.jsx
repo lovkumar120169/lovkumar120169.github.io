@@ -9,7 +9,7 @@ import "./home2.css"
 
 function Home2() {
   return (
-    <div className="home-about-section" id="about">
+    <div className="home-about-section about section" id="about" >
 
       <div style={{ paddingTop: "50px",paddingBottom:"50px" }}>
         <h1 style={{ fontSize: "2.6em", marginBottom: "70px" }}>
@@ -23,7 +23,7 @@ function Home2() {
 
           <div className="about-dis-div">
 
-            <p className="home-about-body">
+            <p className="home-about-body" id="user-detail-intro">
               As a Full Stack Web Developer, I have a keen eye for design and a passion for creating engaging user experiences.
               {/* <br /> */}
               <br />My skill set encompasses HTML, CSS, Javascript, React, Redux, TypeScript, Express.js, Node.js, and MongoDb, including proficiency in frameworks like Chakra UI and Bootstrap.
@@ -44,11 +44,12 @@ function Home2() {
 
           <div className="img-div" >
             <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" style={{ width: "100%" }} />
+              <img src={myImg} className="img-fluid home-img" alt="avatar" style={{ width: "100%" }} />
             </Tilt>
 
             <div>
               <Button className=""
+              id="resume-button-2"
                 variant="success"
                 href={resume}
                 target="_blank" style={{ display: "flex", justifyContent: "center", alignItems: "center", width: "100%", backgroundColor: "rgb(33,37,41)", border: "none", marginTop: "5px" }}><CgFileDocument style={{ marginRight: "5px" }} />
