@@ -19,40 +19,45 @@
   border-radius: 12px;
 }
 
-.home-about-section{
+.home-about-section {
   /* background-color: blue; */
   color: red;
   /* background-color: rgba(0, 0, 0, 0.332); */
   /* background-color: #afd9d5; */
-  background:linear-gradient(rgb(152,238,204),rgba(152, 238, 204, 0.619)) ;
+  background: linear-gradient(rgb(152, 238, 204), rgba(152, 238, 204, 0.619));
 }
-.home-about-social-text{
+
+.home-about-social-text {
   margin-top: 5px;
   /* margin-left: 23px; */
 }
-.home-about-social-links{
+
+.home-about-social-links {
   width: 150%;
-  margin:100px 0px 100px 0px ;
+  margin: 100px 0px 100px 0px;
   display: grid;
-  grid-template-columns: repeat(4,150px);
+  grid-template-columns: repeat(4, 150px);
   gap: 20px;
   justify-content: center;
   align-items: center;
 
 }
+
 /* style={{margin:"100px 0px 100px 0px",display:"flex",gap:"20px",alignItems:"center",justifyContent:"center"}} */
 
 @media screen and (max-width: 800px) and (min-width: 300px) {
-  .home-about-social-links{
-    margin:100px 0px 100px 0px ;
+
+  .home-about-social-links {
+    margin: 100px 0px 100px 0px;
     display: grid;
-    grid-template-columns: repeat(2,140px);
+    grid-template-columns: repeat(2, 140px);
     gap: 20px;
     align-items: center;
     justify-content: center;
-  
+
   }
-  .stats-direction{
+
+  .stats-direction {
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -60,19 +65,23 @@
     justify-content: center;
   }
   
+  
+ 
+
 }
 
 
-.live-btn{
+
+/* 
+.live-btn {
   padding: 15px;
   display: flex;
   justify-content: space-around;
   align-items: center;
   width: 100%;
-  /* margin: auto; */
- }
+} */
 
-.stats-direction{
+.stats-direction {
   display: flex;
   gap: 20px;
   align-items: center;
@@ -80,18 +89,17 @@
 }
 
 
-.home-about-section {
+/* .home-about-section {
   position: relative;
   padding-bottom: 70px !important;
-  /* padding-top: 70px !important; */
-}
+} */
 
+/* 
 .home-about-description {
-  color: black  !important;
+  color: black !important;
   padding-top: 100px !important;
-  padding-bottom: 20px !important;
   text-align: center;
-}
+} */
 
 .home-about-body {
   padding-top: 50px;
@@ -99,8 +107,9 @@
   font-weight: 500;
   text-align: left;
 }
+
 .purple {
-  color:rgb(19, 11, 61);
+  color: rgb(19, 11, 61);
 }
 
 .icon-colour {
@@ -115,4 +124,3 @@
   justify-content: center;
   align-items: center;
 }
-

@@ -1,5 +1,6 @@
 import React from "react";
 import "./Card.css";
+// import { color } from "framer-motion";
 
 const Card = ({ data }) => {
   return (
@@ -9,30 +10,12 @@ const Card = ({ data }) => {
         <div className="p-3">
           <h4 className="text-center my-2 font-weight-bold">{data.name}</h4>
           <p className="px-2 text-center">{data.desc}</p>
-          <div className="live-btn">
-            <div className="col-md-6" id="btn-div" >
-              <a
-                className="btn btn-outline-dark  btn-sm"
-                href={data.demoLink}
-                target="_blank"
-                rel="noreferrer"
-                style={{ backgroundColor: "rgb(152,238,204)", border: "none", fontWeight: "600", padding: "5px 15px", width: "100%" }}
-              >
-                Live
-              </a>
+          <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center",marginTop:"40px",padding:"0px 30px" }}>
+            <div style={{ width: "40%" }}>
+              <a href={data.demoLink}> <button style={{ fontWeight: "600", padding: "5px 15px", border: "none", backgroundColor: "rgb(152 238 204)", borderRadius: "5px", width: "100%" }}>Live</button></a>
             </div>
-            <div className="col-md-6" id="btn-div">
-              <a
-
-                id="github-btn-1"
-                className="btn btn-outline-dark  btn-sm github-btn-1"
-                href={data.codeLink}
-                target="_blank"
-                rel="noreferrer"
-
-              >
-                Github
-              </a>
+            <div style={{ width: "40%" }}>
+              <a href={data.codeLink}   > <button style={{ fontWeight: "600", padding: "5px 15px", border: "none", backgroundColor: "rgb(152 238 204)", borderRadius: "5px", width: "100%" }}>Github</button></a>
             </div>
           </div>
         </div>
@@ -42,3 +25,6 @@ const Card = ({ data }) => {
 };
 
 export { Card };
+
+// href={data.codeLink}
+// href={data.demoLink}
