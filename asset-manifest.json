@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.7f6b7838.css",
-    "main.js": "/static/js/main.c847a0b7.js",
+    "main.css": "/static/css/main.d4217240.css",
+    "main.js": "/static/js/main.23123257.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/slide4.jpg": "/static/media/slide4.7e726912bce82b1575be.jpg",
     "static/media/slide6.jpg": "/static/media/slide6.95c4826263384d728336.jpg",
@@ -12,7 +12,7 @@
     "static/media/Trendz.png": "/static/media/Trendz.dcd37a16992722422aea.png",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/immortalyoga.png": "/static/media/immortalyoga.340e1a0e5269b11b8410.png",
-    "static/media/resume.pdf": "/static/media/resume.c1bfd942fce2d5b3842a.pdf",
+    "static/media/resume.pdf": "/static/media/resume.90a3425f0ace5a8040e5.pdf",
     "static/media/fontawesome-webfont.eot": "/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
     "static/media/fontawesome-webfont.ttf?v=4.7.0": "/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
     "static/media/slide2.jpg": "/static/media/slide2.61508ea87dc76960a14a.jpg",
@@ -38,12 +38,12 @@
     "static/media/git-icon.svg": "/static/media/git-icon.c60b7e5ae8ec2562f23fdddcab300026.svg",
     "static/media/material-ui-1.svg": "/static/media/material-ui-1.fd510ed8518b192069590b04e2e6348a.svg",
     "static/media/vercel.svg": "/static/media/vercel.0d94e923424aa8a93432103a604aa0fb.svg",
-    "main.7f6b7838.css.map": "/static/css/main.7f6b7838.css.map",
-    "main.c847a0b7.js.map": "/static/js/main.c847a0b7.js.map",
+    "main.d4217240.css.map": "/static/css/main.d4217240.css.map",
+    "main.23123257.js.map": "/static/js/main.23123257.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7f6b7838.css",
-    "static/js/main.c847a0b7.js"
+    "static/css/main.d4217240.css",
+    "static/js/main.23123257.js"
   ]
 }
