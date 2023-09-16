@@ -42,7 +42,7 @@ function Home2() {
 
 
 
-          <div className="img-div" >
+          <div className="img-div">
             <Tilt>
               <img src={myImg} className="img-fluid home-img" alt="avatar" style={{ width: "100%" }} />
             </Tilt>
