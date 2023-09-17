@@ -15,7 +15,7 @@ export const Projects = () => {
         desc: "Clone of Koovs.com which is a Fashion based E-commerce Platform",
         img: Trendz,
         demoLink: "https://64e20c4112dded6402ff06a8--soft-babka-878124.netlify.app/",
-        codeLink: "https://github.com/lovkumar120169/pink-purpose-5182",
+        codeLink: "https://github.com/lovkumar120169/Koovs-Clone",
         techstack: [
           "/icons/html-5.svg",
           "/icons/css-3.svg",
@@ -45,7 +45,7 @@ export const Projects = () => {
         desc: "IMMORTAL YOGA offers an array of yoga styles, ranging from the dynamic flow of Vinyasa to the meditative depths of Yin.",
         img: immortalYoga,
         demoLink: "https://gleaming-cobbler-bec2a7.netlify.app/",
-        codeLink: "https://github.com/aslammmahetar/nosy-silk-95",
+        codeLink: "https://github.com/lovkumar120169/Immortal-Yoga",
         techstack: [
           "/icons/react.svg",
           "/icons/css-3.svg",
