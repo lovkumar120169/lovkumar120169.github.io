@@ -1,6 +1,7 @@
 import React from "react";
 import { Card } from "./Card";
 import Trendz from "../assets/img/projects/Trendz.png";
+import Puzzle from "../assets/img/projects/puzzle_innovationz.png"
 import HolaEx from "../assets/img/projects/HolaEx.png";
 import HelthoCart from "../assets/img/projects/HelthoCart.png";
 import Artgallery from "../assets/img/projects/Art_gallery.png";
@@ -25,11 +26,11 @@ export const Projects = () => {
         ],
       },
       {
-        name: "HelthO Cart",
-        desc: "Clone of Helth Kart.com which is an E-commerce website delivering Healthy Products & Supplements",
-        img: HelthoCart,
-        demoLink: "https://64e20e0ce0168061e85747dd--keen-maamoul-1420db.netlify.app/",
-        codeLink: "https://github.com/lovkumar120169/gamy-rate-5438",
+        name: "Puzzle Innovationz",
+        desc: "Clone of Puzzle Innovationz it is a UI/UX design bootcamp for honing design skills, mastering industry tools, and creating exceptional user experiences.",
+        img: Puzzle,
+        demoLink: "https://6506fdb11b7ad93c3f86d53b--illustrious-dolphin-5c2f38.netlify.app/",
+        codeLink: "https://github.com/lovkumar120169/Puzzle-Innovationz--Clone",
         techstack: [
           "/icons/react.svg",
           "/icons/css-3.svg",
@@ -89,3 +90,4 @@ export const Projects = () => {
 };
 
 
+ 
