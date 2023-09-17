@@ -41,7 +41,7 @@ export const Navbaar = () => {
               <Nav.Link eventKey={2} href="#contact" className="nav-link contact">
                 Contact
               </Nav.Link>
-              <Navbar.Brand >
+              <Navbar.Brand>
                 {/* Resume */}
                 <Button
                   className="m-2 nav-link resume"
