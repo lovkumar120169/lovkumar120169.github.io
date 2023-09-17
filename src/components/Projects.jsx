@@ -3,6 +3,7 @@ import { Card } from "./Card";
 import Trendz from "../assets/img/projects/Trendz.png";
 import HolaEx from "../assets/img/projects/HolaEx.png";
 import HelthoCart from "../assets/img/projects/HelthoCart.png";
+import Artgallery from "../assets/img/projects/Art_gallery.png";
 import immortalYoga from "../assets/img/projects/immortalyoga.png"
 import "./Project.css";
 export const Projects = () => {
@@ -54,6 +55,22 @@ export const Projects = () => {
           "/icons/nodejs-icon.svg",
           "/icons/express.svg",
         ],
+      }, {
+        name: "Art Gallery",
+        desc: "This clone of the Marian Goodman Gallery website presents an extensive collection of artworks by renowned and influential artists",
+        img: Artgallery,
+        demoLink: "https://client-steel-gamma.vercel.app/",
+        codeLink: "https://github.com/lovkumar120169/Art-Gallery",
+        techstack: [
+          "/icons/react.svg",
+          "/icons/css-3.svg",
+          "/icons/javascript.svg",
+          "/icons/npm.svg",
+          "/icons/mongodb.svg",
+          "/icons/bootstrap.svg",
+          "/icons/nodejs-icon.svg",
+          "/icons/express.svg",
+        ],
       }
     ],
   };
@@ -72,17 +89,3 @@ export const Projects = () => {
 };
 
 
-
-
-// {
-//   name: "Sugar Cosmetics Clone",
-//   desc: "Sugar Cosmetics is an online marketplace that sells beauty products.  ",
-//   img: sugercosmetics,
-//   demoLink: "https://sugar-cosmetic.netlify.app/",
-//   codeLink: "https://github.com/hrutugandha/Sugar_Cosmetics_Project.git",
-//   techstack: [
-//     "/icons/html-5.svg",
-//     "/icons/css-3.svg",
-//     "/icons/javascript.svg",
-//   ],
-// },
