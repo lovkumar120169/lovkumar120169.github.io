@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col, Button } from "react-bootstrap";
 import myImg from "../../assets/img/profile/luv pic.jpg";
-import resume from "../../assets/files/resume.pdf";
+import resume from "../../assets/files/Lov_Kumar_Resume.pdf";
 import Tilt from "react-parallax-tilt";
 import { CgFileDocument } from "react-icons/cg";
 

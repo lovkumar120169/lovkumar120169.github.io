@@ -1,7 +1,7 @@
 import { Navbar, Container, Nav } from "react-bootstrap";
 import "font-awesome/css/font-awesome.min.css";
 import { Button } from "react-bootstrap";
-import resume from "../assets/files/resume.pdf";
+import resume from "../assets/files/Lov_Kumar_Resume.pdf";
 import { RxSlash, RxChevronLeft, RxChevronRight } from "react-icons/rx";
 import { CgFileDocument } from "react-icons/cg";
 
