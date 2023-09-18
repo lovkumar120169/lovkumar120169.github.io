@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.e3d5fa1b.css",
-    "main.js": "/static/js/main.b1ae3d7f.js",
+    "main.js": "/static/js/main.e4e19156.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/slide4.jpg": "/static/media/slide4.7e726912bce82b1575be.jpg",
     "static/media/Art_gallery.png": "/static/media/Art_gallery.c0c316ac73602590dd68.png",
@@ -16,7 +16,7 @@
     "static/media/immortalyoga.png": "/static/media/immortalyoga.340e1a0e5269b11b8410.png",
     "static/media/fontawesome-webfont.eot": "/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
     "static/media/fontawesome-webfont.ttf?v=4.7.0": "/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
-    "static/media/resume.pdf": "/static/media/resume.3bf792861136c41d9b6a.pdf",
+    "static/media/Lov_Kumar_Resume.pdf": "/static/media/Lov_Kumar_Resume.b6b401233b8be2aa79a1.pdf",
     "static/media/slide2.jpg": "/static/media/slide2.61508ea87dc76960a14a.jpg",
     "static/media/fontawesome-webfont.woff?v=4.7.0": "/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
     "static/media/slide1.jpg": "/static/media/slide1.ce2fa051f8347f5452e5.jpg",
@@ -41,11 +41,11 @@
     "static/media/material-ui-1.svg": "/static/media/material-ui-1.fd510ed8518b192069590b04e2e6348a.svg",
     "static/media/vercel.svg": "/static/media/vercel.0d94e923424aa8a93432103a604aa0fb.svg",
     "main.e3d5fa1b.css.map": "/static/css/main.e3d5fa1b.css.map",
-    "main.b1ae3d7f.js.map": "/static/js/main.b1ae3d7f.js.map",
+    "main.e4e19156.js.map": "/static/js/main.e4e19156.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e3d5fa1b.css",
-    "static/js/main.b1ae3d7f.js"
+    "static/js/main.e4e19156.js"
   ]
 }
