@@ -43,18 +43,22 @@ export const Navbaar = () => {
               </Nav.Link>
               <Navbar.Brand>
                 {/* Resume */}
+                
                 <Button
                   className="m-2 nav-link resume"
                   id="resume-button-1"
                   variant="success"
-                  href={resume}
                   target="_blank"
+                  href={resume}
+                  // download="Lov_Kumar_Resume.pdf"
                   style={{ display: "flex", alignItems: "center", justifyContent: "center",backgroundColor:"rgb(152,238,204)",border:"none",color:"black" }}
                 >
+                
                   <CgFileDocument style={{ marginBottom: "3px", marginRight: "5px" }} />
-                  Resume
+                   Resume</Button>
 
-                </Button>
+                  {/* <button id="resume-button-1"><a download="Lov_Kumar_Resume.pdf" href={resume} class="nav-link resume"
+                    id="resume-link-1" ><CgFileDocument style={{ marginBottom: "3px", marginRight: "5px" }} /> RESUME</a></button> */}
               </Navbar.Brand>
               {/* </div> */}
             </Nav>

@@ -16,29 +16,15 @@ export const Projects = () => {
         img: Trendz,
         demoLink: "https://64e20c4112dded6402ff06a8--soft-babka-878124.netlify.app/",
         codeLink: "https://github.com/lovkumar120169/Koovs-Clone",
-        techstack: [
-          "/icons/html-5.svg",
-          "/icons/css-3.svg",
-          "/icons/mongodb.svg",
-          "/icons/express.svg",
-          "/icons/nodejs-icon.svg",
-          "/icons/javascript.svg",
-        ],
+        techstack: "HTML5 | CSS | JavaScript | React | Json Server | Chakra UI",
       },
       {
         name: "Puzzle Innovationz",
         desc: "Clone of Puzzle Innovationz it is a UI/UX design bootcamp for honing design skills, mastering industry tools, and creating exceptional user experiences.",
         img: Puzzle,
-        demoLink: "https://6506fdb11b7ad93c3f86d53b--illustrious-dolphin-5c2f38.netlify.app/",
+        demoLink: "https://65083cd99d357c5da40d9d62--musical-cat-2367fd.netlify.app/",
         codeLink: "https://github.com/lovkumar120169/Puzzle-Innovationz--Clone",
-        techstack: [
-          "/icons/react.svg",
-          "/icons/css-3.svg",
-          "/icons/javascript.svg",
-          "/icons/npm.svg",
-          "/icons/bootstrap.svg",
-          "/icons/nodejs-icon.svg",
-        ],
+        techstack: "HTML5 | CSS | JavaScript | Bootstrap",
       },
       {
         name: "Immortal Yoga",
@@ -47,14 +33,7 @@ export const Projects = () => {
         demoLink: "https://gleaming-cobbler-bec2a7.netlify.app/",
         codeLink: "https://github.com/lovkumar120169/Immortal-Yoga",
         techstack: [
-          "/icons/react.svg",
-          "/icons/css-3.svg",
-          "/icons/javascript.svg",
-          "/icons/npm.svg",
-          "/icons/mongodb.svg",
-          "/icons/bootstrap.svg",
-          "/icons/nodejs-icon.svg",
-          "/icons/express.svg",
+          "HTML5 | CSS | JavaScript | React | Google Auth | Json Server | Chakra UI"
         ],
       }, {
         name: "Art Gallery",
@@ -62,16 +41,8 @@ export const Projects = () => {
         img: Artgallery,
         demoLink: "https://client-steel-gamma.vercel.app/",
         codeLink: "https://github.com/lovkumar120169/Art-Gallery",
-        techstack: [
-          "/icons/react.svg",
-          "/icons/css-3.svg",
-          "/icons/javascript.svg",
-          "/icons/npm.svg",
-          "/icons/mongodb.svg",
-          "/icons/bootstrap.svg",
-          "/icons/nodejs-icon.svg",
-          "/icons/express.svg",
-        ],
+        techstack: "HTML5 | CSS | JavaScript | React | Redux | Node.js | Express.js | MongoDB | Chakra UI"
+        ,
       }
     ],
   };
