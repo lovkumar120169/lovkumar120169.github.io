@@ -65,7 +65,7 @@ function Home2() {
             <div>
             <Button
                   className="nav-link resume"
-                  id="resume-button-1"
+                  id="resume-button-2"
                   // download="Lov_Kumar_Resume.pdf"
                   onClick={handleButtonClick}
                   style={{ display: "flex", justifyContent: "center", alignItems: "center", width: "100%", backgroundColor: "rgb(33,37,41)", border: "none", marginTop: "5px",color:"white",padding:"5px" }}
