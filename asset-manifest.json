@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.e3d5fa1b.css",
-    "main.js": "/static/js/main.e4e19156.js",
+    "main.css": "/static/css/main.78d91b0c.css",
+    "main.js": "/static/js/main.3f8f05e9.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/slide4.jpg": "/static/media/slide4.7e726912bce82b1575be.jpg",
     "static/media/Art_gallery.png": "/static/media/Art_gallery.c0c316ac73602590dd68.png",
@@ -16,7 +16,7 @@
     "static/media/immortalyoga.png": "/static/media/immortalyoga.340e1a0e5269b11b8410.png",
     "static/media/fontawesome-webfont.eot": "/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
     "static/media/fontawesome-webfont.ttf?v=4.7.0": "/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
-    "static/media/Lov_Kumar_Resume.pdf": "/static/media/Lov_Kumar_Resume.b6b401233b8be2aa79a1.pdf",
+    "static/media/Lov_Kumar_Resume.pdf": "/static/media/Lov_Kumar_Resume.3428bb3c0abec5212c97.pdf",
     "static/media/slide2.jpg": "/static/media/slide2.61508ea87dc76960a14a.jpg",
     "static/media/fontawesome-webfont.woff?v=4.7.0": "/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
     "static/media/slide1.jpg": "/static/media/slide1.ce2fa051f8347f5452e5.jpg",
@@ -40,12 +40,12 @@
     "static/media/git-icon.svg": "/static/media/git-icon.c60b7e5ae8ec2562f23fdddcab300026.svg",
     "static/media/material-ui-1.svg": "/static/media/material-ui-1.fd510ed8518b192069590b04e2e6348a.svg",
     "static/media/vercel.svg": "/static/media/vercel.0d94e923424aa8a93432103a604aa0fb.svg",
-    "main.e3d5fa1b.css.map": "/static/css/main.e3d5fa1b.css.map",
-    "main.e4e19156.js.map": "/static/js/main.e4e19156.js.map",
+    "main.78d91b0c.css.map": "/static/css/main.78d91b0c.css.map",
+    "main.3f8f05e9.js.map": "/static/js/main.3f8f05e9.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e3d5fa1b.css",
-    "static/js/main.e4e19156.js"
+    "static/css/main.78d91b0c.css",
+    "static/js/main.3f8f05e9.js"
   ]
 }
