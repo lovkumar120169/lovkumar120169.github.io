@@ -8,6 +8,21 @@ import { CgFileDocument } from "react-icons/cg";
 import "./home2.css"
 
 function Home2() {
+
+  const resumeFileName = 'Lov_Kumar_Resume.pdf'; // Replace with your file name
+  const resumeURL =resume;
+
+  const handleButtonClick = () => {
+    // Create an anchor element
+    const anchor = document.createElement('a');
+    anchor.href = resumeURL;
+    anchor.target = '_blank';
+    anchor.download = resumeFileName;
+
+    // Trigger a click event on the anchor
+    anchor.click();
+    window.open(resume,"_blank")
+  };
   return (
     <div className="home-about-section about section" id="about" >
 
@@ -48,12 +63,16 @@ function Home2() {
             </Tilt>
 
             <div>
-              <Button className=""
-              id="resume-button-2"
-                variant="success"
-                href={resume}
-                target="_blank" style={{ display: "flex", justifyContent: "center", alignItems: "center", width: "100%", backgroundColor: "rgb(33,37,41)", border: "none", marginTop: "5px" }}><CgFileDocument style={{ marginRight: "5px" }} />
-                Resume</Button>
+            <Button
+                  className="nav-link resume"
+                  id="resume-button-1"
+                  // download="Lov_Kumar_Resume.pdf"
+                  onClick={handleButtonClick}
+                  style={{ display: "flex", justifyContent: "center", alignItems: "center", width: "100%", backgroundColor: "rgb(33,37,41)", border: "none", marginTop: "5px",color:"white",padding:"5px" }}
+                >
+
+                  <CgFileDocument style={{ marginBottom: "3px", marginRight: "5px" }} />
+                  Resume</Button>
             </div>
           </div>
         </div>
@@ -63,3 +82,4 @@ function Home2() {
 }
 export default Home2;
 
+// { display: "flex", justifyContent: "center", alignItems: "center", width: "100%", backgroundColor: "rgb(33,37,41)", border: "none", marginTop: "5px" }

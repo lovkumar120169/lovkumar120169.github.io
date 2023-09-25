@@ -7,6 +7,21 @@ import { CgFileDocument } from "react-icons/cg";
 
 export const Navbaar = () => {
 
+  const resumeFileName = 'Lov_Kumar_Resume.pdf'; // Replace with your file name
+  const resumeURL =resume;
+
+  const handleButtonClick = () => {
+    // Create an anchor element
+    const anchor = document.createElement('a');
+    anchor.href = resumeURL;
+    anchor.target = '_blank';
+    anchor.download = resumeFileName;
+
+    // Trigger a click event on the anchor
+    anchor.click();
+    window.open(resume,"_blank")
+  };
+
   // const [isOpen, setOpen] = useState(false)
   return (
     <div className="navbar-container" id="nav-menu">
@@ -17,7 +32,7 @@ export const Navbaar = () => {
         variant="dark"
         fixed="top"
         id="navbar"
-        className="animate-navbar nav-theme justify-content-between"
+        className="animate-navbar nav-theme justify-content-around"
 
       >
         <Container>
@@ -43,22 +58,16 @@ export const Navbaar = () => {
               </Nav.Link>
               <Navbar.Brand>
                 {/* Resume */}
-                
                 <Button
                   className="m-2 nav-link resume"
                   id="resume-button-1"
-                  variant="success"
-                  target="_blank"
-                  href={resume}
                   // download="Lov_Kumar_Resume.pdf"
-                  style={{ display: "flex", alignItems: "center", justifyContent: "center",backgroundColor:"rgb(152,238,204)",border:"none",color:"black" }}
+                  onClick={handleButtonClick}
+                  style={{ display: "flex", alignItems: "center", justifyContent: "center", backgroundColor: "rgb(152,238,204)", border: "none", color: "black", padding: "5px" }}
                 >
-                
-                  <CgFileDocument style={{ marginBottom: "3px", marginRight: "5px" }} />
-                   Resume</Button>
 
-                  {/* <button id="resume-button-1"><a download="Lov_Kumar_Resume.pdf" href={resume} class="nav-link resume"
-                    id="resume-link-1" ><CgFileDocument style={{ marginBottom: "3px", marginRight: "5px" }} /> RESUME</a></button> */}
+                  <CgFileDocument style={{ marginBottom: "3px", marginRight: "5px" }} />
+                  Resume</Button>
               </Navbar.Brand>
               {/* </div> */}
             </Nav>
