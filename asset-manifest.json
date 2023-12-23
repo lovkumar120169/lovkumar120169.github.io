@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.f39f0897.css",
-    "main.js": "/static/js/main.74f75fd9.js",
+    "main.js": "/static/js/main.b5f0834e.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/slide4.jpg": "/static/media/slide4.7e726912bce82b1575be.jpg",
     "static/media/Art_gallery.png": "/static/media/Art_gallery.c0c316ac73602590dd68.png",
@@ -10,6 +10,7 @@
     "static/media/HelthoCart.png": "/static/media/HelthoCart.2d99481480c2b508baaf.png",
     "static/media/slide3.jpg": "/static/media/slide3.ef3d660a82935e9dd428.jpg",
     "static/media/HolaEx.png": "/static/media/HolaEx.799bb356eecd8d9dd620.png",
+    "static/media/luv pic.jpg": "/static/media/luv pic.4bf270d4a1e4a624176f.jpg",
     "static/media/Trendz.png": "/static/media/Trendz.dcd37a16992722422aea.png",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/puzzle_innovationz.png": "/static/media/puzzle_innovationz.24e136f7b45c59d5296d.png",
@@ -17,11 +18,10 @@
     "static/media/fontawesome-webfont.eot": "/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
     "static/media/fontawesome-webfont.ttf?v=4.7.0": "/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
     "static/media/slide2.jpg": "/static/media/slide2.61508ea87dc76960a14a.jpg",
-    "static/media/Lov_Kumar_Resume.pdf": "/static/media/Lov_Kumar_Resume.a26bc1ecc93da047e8bd.pdf",
+    "static/media/Lov_Kumar_Resume.pdf": "/static/media/Lov_Kumar_Resume.4e737cb972eb55660f37.pdf",
     "static/media/fontawesome-webfont.woff?v=4.7.0": "/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
     "static/media/slide1.jpg": "/static/media/slide1.ce2fa051f8347f5452e5.jpg",
     "static/media/fontawesome-webfont.woff2?v=4.7.0": "/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
-    "static/media/luv pic.jpg": "/static/media/luv pic.059f62d41b501f780304.jpg",
     "static/media/cityclglogo.png": "/static/media/cityclglogo.59251372c567bbc6159d.png",
     "static/media/culogo.jpeg": "/static/media/culogo.1b9f8198922ee6f2f4b9.jpeg",
     "static/media/mongodb.svg": "/static/media/mongodb.d89a6eebb2b81e487ffc99f69a3f6ea4.svg",
@@ -41,11 +41,11 @@
     "static/media/material-ui-1.svg": "/static/media/material-ui-1.fd510ed8518b192069590b04e2e6348a.svg",
     "static/media/vercel.svg": "/static/media/vercel.0d94e923424aa8a93432103a604aa0fb.svg",
     "main.f39f0897.css.map": "/static/css/main.f39f0897.css.map",
-    "main.74f75fd9.js.map": "/static/js/main.74f75fd9.js.map",
+    "main.b5f0834e.js.map": "/static/js/main.b5f0834e.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f39f0897.css",
-    "static/js/main.74f75fd9.js"
+    "static/js/main.b5f0834e.js"
   ]
 }
