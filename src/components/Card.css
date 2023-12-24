@@ -1,27 +1,39 @@
 .project-card {
-  transition: transform 0.3s;
-}
-.project-card:hover {
-  transform: scale(1.05);
-}
-.project-image {
-  height: 250px;
-}
+    transition: transform 0.3s;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    background-color: white;
+    color: black;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 
-@media screen and (max-width: 800px) and (min-width: 300px) {
+  }
   
-}
-
-#github-btn-1{
-  background-color:rgb(152,238,204) ;
-  border: none;
-  font-weight: 600;
-  padding: 5px 15px;
-  width: 100%;
-}
-/* style={{ backgroundColor: "rgb(152,238,204)", border: "none", fontWeight: "600", padding: "5px 15px" ,width:"100%"}} */
-
-#btn-div{
-  width: 20%;
-  /* border: 1px solid red; */
-}
+  .project-card:hover {
+    transform: scale(1.05);
+  }
+  .project-image {
+    height: 250px;
+  }
+  
+  @media screen and (max-width: 850px) and (min-width: 300px) {
+    .project-card{
+      width: 95%;
+      margin: auto;
+    }
+    
+  }
+  
+  #github-btn-1{
+    background-color:rgb(152,238,204) ;
+    border: none;
+    font-weight: 600;
+    padding: 5px 15px;
+    width: 100%;
+  }
+  /* style={{ backgroundColor: "rgb(152,238,204)", border: "none", fontWeight: "600", padding: "5px 15px" ,width:"100%"}} */
+  
+  #btn-div{
+    width: 20%;
+    /* border: 1px solid red; */
+  }

@@ -1,8 +1,15 @@
-.project-container {
-  background:linear-gradient(rgb(152,238,204),rgba(152, 238, 204, 0.619)) ;
-  width: 100%;
-}
-.width{
-    max-width: 85%;
-}
+  .row-gap{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+  }
 
+  @media screen and (max-width: 850px){
+    .row-gap{
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+      gap: 20px;
+    }
+  }
+  
+  
