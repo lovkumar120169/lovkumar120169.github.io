@@ -55,20 +55,7 @@ export const About = () => {
             </div>
           </div>
           <div className="about-socials">
-            <Reveal
-              // initial={{ opacity: 0, translateY: 50 }}
-              // animate={{ opacity: 1, translateY: 0 }}
-              // transition={{ duration: 0.5, delay: 2 }}
-              delay={0.5}
-              className="social-card"
-            >
-              <FontAwesomeIcon
-                className="icon"
-                href=""
-                icon={faInstagram}
-              ></FontAwesomeIcon>
-              <a href="https://www.instagram.com/luv2733/" target="_blank"><p>Instagram</p></a>
-            </Reveal>
+            
             <Reveal className="social-card" delay={0.6}>
               <FontAwesomeIcon
                 className="icon"
@@ -98,6 +85,20 @@ export const About = () => {
                 icon={faLinkedinIn}
               ></FontAwesomeIcon>
               <a href="https://www.linkedin.com/in/lov-kumar-47b232235/" target="_blank"><p>LinkedIn</p></a>
+            </Reveal>
+            <Reveal
+              // initial={{ opacity: 0, translateY: 50 }}
+              // animate={{ opacity: 1, translateY: 0 }}
+              // transition={{ duration: 0.5, delay: 2 }}
+              delay={0.5}
+              className="social-card"
+            >
+              <FontAwesomeIcon
+                className="icon"
+                href=""
+                icon={faInstagram}
+              ></FontAwesomeIcon>
+              <a href="https://www.instagram.com/luv2733/" target="_blank"><p>Instagram</p></a>
             </Reveal>
           </div>
         </div>
@@ -301,7 +302,8 @@ const ABOUT = styled.section`
         padding: 1rem;
         .about-avatar {
           img {
-            aspect-ratio: 1;
+            aspect-ratio: 0;
+            border-radius:0;
             width: 100%;
             height: 100%;
             padding: 0.25rem;
@@ -319,7 +321,7 @@ const ABOUT = styled.section`
     }
   }
   @media screen and (max-width: 520px) {
-    padding-block: 2rem;
+    // padding-block: 2rem;
     .about-xp {
       flex-direction: column;
 
@@ -332,7 +334,7 @@ const ABOUT = styled.section`
     }
   }
   @media screen and (max-width: 400px) {
-    padding-block: 1rem;
+    // padding-block: 1rem;
     .about-card {
       gap: 1rem;
       flex-direction: column;

@@ -5,7 +5,7 @@ import { RxSlash, RxChevronLeft, RxChevronRight } from "react-icons/rx";
 export const Logo = () => {
   return (
     <LOGO>
-        <p style={{  alignItems: "center", justifyContent: "center", color: "white", fontSize: "20px", fontFamily: "'Rouge Script', cursive" }}><RxChevronLeft /><span style={{fontSize:"25px"}}>Luv<span style={{color:"#DFA464"}}>Kumar</span></span><RxSlash /><RxChevronRight /></p>
+        <p style={{  alignItems: "center", justifyContent: "center", color: "white", fontSize: "20px", fontFamily: "'Rouge Script', cursive" }}><RxChevronLeft /><span style={{fontSize:"25px"}}>Lov<span style={{color:"#DFA464"}}>Kumar</span></span><RxSlash /><RxChevronRight /></p>
     </LOGO>
   )
 }

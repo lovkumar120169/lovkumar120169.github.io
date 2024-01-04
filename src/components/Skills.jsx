@@ -173,7 +173,7 @@ const SKILLS = styled.section`
       }
     }
   }
-  @media screen and (max-width: 500px) {
+  00px) {
     .skills-row {
       .skills-card {
         border-radius: 0.25rem;

@@ -34,7 +34,7 @@ export const Contact = () => {
                 {" "}
                 <i className="fa fa-phone"></i>
               </span>
-              <span style={{ fontFamily: '"Montserrat", serif', fontWeight: "500", fontSize: "20px", color: "#ccc" }}>8709330353</span>
+              <span style={{ fontFamily: '"Montserrat", serif', fontWeight: "500", fontSize: "20px", color: "#ccc" }}>+91 8709330353</span>
             </a>
           </h5>
         </div>

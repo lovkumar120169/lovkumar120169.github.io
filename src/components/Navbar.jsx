@@ -13,16 +13,31 @@ import {
   faBars,
   faBook
 } from "@fortawesome/free-solid-svg-icons";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
 export const Navbar = () => {
+
+
   const [isMenuOpen, setMenuOpen] = useState(false);
   const [isSmallScreen, setIsSmallScreen] = useState(window.innerWidth <= 850);
+
+
+
 
   const toggleMenu = () => {
     setMenuOpen(!isMenuOpen);
   };
 
   useEffect(() => {
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+          behavior: 'smooth'
+        });
+      });
+    });
     const handleResize = () => {
       setIsSmallScreen(window.innerWidth <= 850);
       if (!isSmallScreen) {
@@ -35,15 +50,15 @@ export const Navbar = () => {
   }, [isSmallScreen]);
   function openHandler() {
     window.open(
-      "https://drive.google.com/file/d/1LYu1y2aYLqp2NQQD4SkFbMMxID_Udb9g/view?usp=sharing",
+      "https://drive.google.com/file/d/1VsFJTUVCwRQ-gsaNg8jxtsT-HP-2p2kt/view?usp=sharing",
       "_blank"
     );
   }
   return (
-    <NAV id="nav-menu" style={{display:isSmallScreen?"flex":"",alignItems:"center",justifyContent:"space-between"}}>
+    <NAV id="nav-menu" style={{ display: isSmallScreen ? "flex" : "", alignItems: "center", justifyContent: "space-between" }}>
       {
         isSmallScreen && (
-          <Logo/>
+          <Logo />
         )
       }
       {isSmallScreen && (
@@ -52,41 +67,47 @@ export const Navbar = () => {
         </HamburgerIcon>
       )}
       {isSmallScreen ? (
-        <Sidebar isOpen={isMenuOpen} style={{marginTop:"30px"}}>
-          
+        <Sidebar isOpen={isMenuOpen} style={{ marginTop: "30px" }}>
+
           <ul>
             <li>
-              <a href="#home" onClick={()=>{setMenuOpen(!isMenuOpen)}} className="nav-link home">
+              <a href="#home" onClick={() => { setMenuOpen(!isMenuOpen) }} className="nav-link home">
                 <FontAwesomeIcon icon={faHouse} className="icon" />
                 Home
               </a>
             </li>
             <li>
-              <a href="#about" onClick={()=>{setMenuOpen(!isMenuOpen)}} className="nav-link about">
+              <a href="#about" onClick={() => { setMenuOpen(!isMenuOpen) }} className="nav-link about">
                 <FontAwesomeIcon icon={faAddressCard} className="icon" />
                 About
               </a>
             </li>
             <li>
-              <a href="#skills" onClick={()=>{setMenuOpen(!isMenuOpen)}} className="nav-link skills">
+              <a href="#skills" onClick={() => { setMenuOpen(!isMenuOpen) }} className="nav-link skills">
                 <FontAwesomeIcon icon={faCode} className="icon" />
                 Skills
               </a>
             </li>
             <li>
-              <a href="#education" onClick={()=>{setMenuOpen(!isMenuOpen)}} className="nav-link skills">
+              <a href="#education" onClick={() => { setMenuOpen(!isMenuOpen) }} className="nav-link skills">
                 <FontAwesomeIcon icon={faBook} className="icon" />
                 Education
               </a>
             </li>
             <li>
-              <a href="#projects" onClick={()=>{setMenuOpen(!isMenuOpen)}} className="nav-link projects">
+              <a href="#projects" onClick={() => { setMenuOpen(!isMenuOpen) }} className="nav-link projects">
                 <FontAwesomeIcon icon={faLaptopFile} className="icon" />
                 Projects
               </a>
             </li>
             <li>
-              <a href="#contact" onClick={()=>{setMenuOpen(!isMenuOpen)}} className="nav-link contact">
+              <a href="#github-stat" onClick={() => { setMenuOpen(!isMenuOpen) }} className="nav-link projects">
+                <FontAwesomeIcon icon={faGithub} className="icon" />
+                My Stats
+              </a>
+            </li>
+            <li>
+              <a href="#contact" onClick={() => { setMenuOpen(!isMenuOpen) }} className="nav-link contact">
                 <FontAwesomeIcon icon={faPhoneVolume} className="icon" />
                 Contact
               </a>
@@ -126,9 +147,9 @@ const NAV = styled.nav`
   position: sticky;
   top: 0;
   z-index: 10000000;
-  background-color: #212529;
+  background-color:#212529;
 `;
-
+// #212529
 const Sidebar = styled.div`
   display: none;
   position: absolute;
@@ -161,7 +182,7 @@ const Sidebar = styled.div`
 const OriginalNav = () => {
   function openHandler() {
     window.open(
-      "https://drive.google.com/file/d/1LYu1y2aYLqp2NQQD4SkFbMMxID_Udb9g/view?usp=sharing",
+      "https://drive.google.com/file/d/1VsFJTUVCwRQ-gsaNg8jxtsT-HP-2p2kt/view?usp=sharing",
       "_blank"
     );
   }
@@ -188,15 +209,21 @@ const OriginalNav = () => {
           </a>
         </li>
         <li>
-              <a href="#education" className="nav-link skills">
-                <FontAwesomeIcon icon={faBook} className="icon" />
-                Education
-              </a>
-            </li>
+          <a href="#education" className="nav-link skills">
+            <FontAwesomeIcon icon={faBook} className="icon" />
+            Education
+          </a>
+        </li>
         <li>
           <a href="#projects" className="nav-link projects">
             <FontAwesomeIcon icon={faLaptopFile} className="icon" />
             Projects
+          </a>
+        </li>
+        <li>
+          <a href="#github-stat" className="nav-link projects">
+            <FontAwesomeIcon icon={faGithub} className="icon" />
+            My Stats
           </a>
         </li>
         <li>

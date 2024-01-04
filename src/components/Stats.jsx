@@ -2,57 +2,59 @@ import React from "react";
 import styled from "styled-components";
 import GitHubCalendar from "react-github-calendar";
 import { Reveal } from "./common/Reveal";
+import { Tooltip } from "react-bootstrap";
 
 export const Stats = () => {
-  const selectLastHalfYear = (contributions) => {
-    const currentYear = new Date().getFullYear();
-    const currentMonth = new Date().getMonth();
-    const shownMonths = 7;
+  // const selectLastHalfYear = (contributions) => {
+  //   const currentYear = new Date().getFullYear();
+  //   const currentMonth = new Date().getMonth();
+  //   const shownMonths = 7;
 
-    return contributions.filter((activity) => {
-      const date = new Date(activity.date);
-      const monthOfDay = date.getMonth();
+  //   return contributions.filter((activity) => {
+  //     const date = new Date(activity.date);
+  //     const monthOfDay = date.getMonth();
 
-      return (
-        date.getFullYear() === currentYear &&
-        monthOfDay > currentMonth - shownMonths &&
-        monthOfDay <= currentMonth
-      );
-    });
-  };
+  //     return (
+  //       date.getFullYear() === currentYear &&
+  //       monthOfDay > currentMonth - shownMonths &&
+  //       monthOfDay <= currentMonth
+  //     );
+  //   });
+  // };
 
-  function handleRender(block) {
-    // ReactElement;
-    // console.log(activity,block);
-    console.log(block.props["data-level"]);
+  // function handleRender(block) {
+  //   // ReactElement;
+  //   // console.log(activity,block);
+  //   console.log(block.props["data-level"]);
 
-    return block;
-  }
+  //   return block;
+  // }
   return (
     <STATS>
       <Reveal>
-        <h2>Github Stats</h2>
+        <h2 id="github-stat">Github Stats</h2>
       </Reveal>
-      <div className="github-stats">
-        <Reveal>
-          <div className="calender-container">
-            <GitHubCalendar
-              username="lovkumar120169"
-              transformData={selectLastHalfYear}
-              className="react-activity-calendar"
-              colorScheme="light"
-              fontSize={14}
-              blockSize={16}
+      <div className="github-stats" >
+
+        <GitHubCalendar
+          className="react-activity-calendar"
+          style={{ margin: "auto", width: "100%" }}
+          username="lovkumar120169"
+          blockSize={30}
+          colorScheme="light"
+              fontSize={16}
               blockMargin={10}
-              blockRadius={4}
-              renderBlock={handleRender}
-              theme={{
-                light: ["#3f3f3f", "#EBC296", "#DFA464", "#D7862F", "#B46D20"],
-                dark: ["#3f3f3f", "#10611E", "#1C9030", "#25AF3C", "#69DB7C"],
-              }}
-            />
-          </div>
-        </Reveal>
+              blockRadius={5}
+          hideTotalCount
+          theme={{
+            light: ["#3f3f3f", "#EBC296", "#DFA464", "#D7862F", "#B46D20"],
+            dark: ["#3f3f3f", "#10611E", "#1C9030", "#25AF3C", "#69DB7C"],
+          }}
+        >
+          <Tooltip delayShow={20} html />
+        </GitHubCalendar>
+        <br />
+        <br />
 
         <div className="other-stats">
           <Reveal>
@@ -90,8 +92,10 @@ export const Stats = () => {
 };
 
 const STATS = styled.section`
+
   padding-block: 5rem;
   .github-stats {
+    // width:90%;
     padding-block: 2rem;
     width: 100%;
     display: flex;

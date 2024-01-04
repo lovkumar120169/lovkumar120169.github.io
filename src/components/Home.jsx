@@ -12,7 +12,7 @@ import styled from "styled-components";
 export const Home = () => {
   function openHandler() {
     window.open(
-      "https://drive.google.com/file/d/1LYu1y2aYLqp2NQQD4SkFbMMxID_Udb9g/view?usp=sharing",
+      "https://drive.google.com/file/d/1VsFJTUVCwRQ-gsaNg8jxtsT-HP-2p2kt/view?usp=sharing",
       "_blank"
     );
   }
@@ -37,8 +37,7 @@ export const Home = () => {
           </Reveal>
           <Reveal>
             <p id="user-detail-intro">
-            As a Full Stack Web Developer, I have a keen eye for design and a passion for creating engaging user experiences.
-My skill set encompasses HTML, CSS, Javascript, React, Redux, TypeScript, Express.js, Node.js, and MongoDb, including proficiency in frameworks like Chakra UI and Bootstrap.
+            I am a Full Stack Web Developer with a strong design sensibility and a drive for crafting engaging user interfaces. Proficient in HTML, CSS, JavaScript, React, Redux, TypeScript, Express.js, Node.js, and MongoDB. Experienced with Chakra UI and Bootstrap frameworks.
             </p>
           </Reveal>
           <Reveal>
@@ -174,7 +173,7 @@ const HOME = styled.section`
     content: "LovKumar";
     position: absolute;
     top: 60%;
-    right: -44%;
+    right: -38%;
     opacity: 0.3;
     transform: translateY(-50%) rotate(90deg);
     /* background-color: red; */

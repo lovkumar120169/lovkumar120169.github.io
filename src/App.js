@@ -32,7 +32,7 @@ function App() {
 }
 
 const CONTAINER = styled.div`
-  width: min(70rem, 100%);
+  width: min(75rem, 100%);
   margin-inline: auto;
 `;
 
