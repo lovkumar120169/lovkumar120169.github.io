@@ -9,24 +9,24 @@ import { Stats } from "./components/Stats";
 import styled from "styled-components";
 import { Education } from "./components/Education";
 import { Footer } from "./components/Footer";
+import { Experience } from "./components/Experience";
 // import { Loader } from "./components/common/Loader";
 
 function App() {
-
   return (
-
     <>
       <Navbar />
       <CONTAINER className="App">
         <Home />
         <JobsTicker></JobsTicker>
         <About />
-        <Education/>
+        <Experience />
+        <Education />
         <Projects />
         <Stats />
         <Contact />
       </CONTAINER>
-      <Footer/>
+      <Footer />
     </>
   );
 }
