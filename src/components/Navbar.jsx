@@ -113,7 +113,7 @@ export const Navbar = () => {
                 className="nav-link skills"
               >
                 <FontAwesomeIcon icon={faLaptop} className="icon" />
-                Experience
+                Internship
               </a>
             </li>
             <li>
@@ -235,7 +235,7 @@ const Sidebar = styled.div`
 const OriginalNav = () => {
   function openHandler() {
     window.open(
-      "https://drive.google.com/file/d/1VsFJTUVCwRQ-gsaNg8jxtsT-HP-2p2kt/view?usp=sharing",
+      "https://drive.google.com/file/d/1bFN0ePASwKAnjfvSeFEyHFJ1DzdDpQfI/view?usp=sharing",
       "_blank"
     );
   }
@@ -264,7 +264,7 @@ const OriginalNav = () => {
         <li>
           <a href="#experience" className="nav-link skills">
             <FontAwesomeIcon icon={faLaptop} className="icon" />
-            Experience
+            Internship
           </a>
         </li>
         <li>

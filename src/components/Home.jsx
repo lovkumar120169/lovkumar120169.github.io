@@ -12,7 +12,7 @@ import styled from "styled-components";
 export const Home = () => {
   function openHandler() {
     window.open(
-      "https://drive.google.com/file/d/1VsFJTUVCwRQ-gsaNg8jxtsT-HP-2p2kt/view?usp=sharing",
+      "https://drive.google.com/file/d/1bFN0ePASwKAnjfvSeFEyHFJ1DzdDpQfI/view?usp=sharing",
       "_blank"
     );
   }
@@ -31,13 +31,17 @@ export const Home = () => {
           </Reveal>
           <Reveal>
             <h1>
-              I am <span id="user-detail-name">Lov</span> Kumar<i>.</i> I
-              Build things for the Web<i>.</i>
+              I am <span id="user-detail-name">Lov</span> Kumar<i>.</i> I Build
+              things for the Web<i>.</i>
             </h1>
           </Reveal>
           <Reveal>
             <p id="user-detail-intro">
-            I am a Full Stack Web Developer with a strong design sensibility and a drive for crafting engaging user interfaces. Proficient in HTML, CSS, JavaScript, React, Redux, TypeScript, Express.js, Node.js, and MongoDB. Experienced with Chakra UI and Bootstrap frameworks.
+              I am a Full Stack Web Developer with a strong design sensibility
+              and a drive for crafting engaging user interfaces. Proficient in
+              HTML, CSS, JavaScript, React, Redux, TypeScript, Express.js,
+              Node.js, and MongoDB. Experienced with Chakra UI and Bootstrap
+              frameworks.
             </p>
           </Reveal>
           <Reveal>
@@ -92,7 +96,7 @@ const HOME = styled.section`
   padding: 0;
   /* border: 1px solid red; */
   gap: 1rem;
-  margin-top:30px;
+  margin-top: 30px;
 
   .home-content {
     width: 60%;

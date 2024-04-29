@@ -10,7 +10,7 @@ export const Experience = () => {
   return (
     <ABOUT id="experience" className="education section">
       <Reveal delay={0.25}>
-        <h2>Experience</h2>
+        <h2>Internship</h2>
       </Reveal>
 
       <Reveal delay={0.25}>
@@ -42,7 +42,7 @@ export const Experience = () => {
                           Full stack web developer
                         </h4>
                         <small style={{ fontWeight: "600" }}>
-                          Feb 2024 -- Present
+                          Feb 2024 -- Apr 2024
                         </small>
                       </div>
                     </div>
