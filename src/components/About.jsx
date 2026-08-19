@@ -37,16 +37,19 @@ export const About = () => {
                 Resume
               </a>
               <p id="user-detail-intro">
-                As a Full Stack Web Developer, I have a keen eye for design and a passion for creating engaging user experiences.
+                As an AI Engineer, I am passionate about building intelligent, scalable, and production-ready AI applications that solve real-world business problems.
                 <br /><br />
-                My skill set encompasses HTML, CSS, JavaScript, React, Redux, TypeScript, Express.js, Node.js, and MongoDB, along with proficiency in frameworks like Chakra UI and Bootstrap. I also have strong expertise in Zoho's ecosystem, including Zoho CRM, Zoho Creator, and Zoho Catalyst, enabling me to build robust business applications and automate workflows.
-                <br /><br />
-                I take pleasure in utilizing modern frameworks like React and Redux to develop dynamic, responsive web applications, and leveraging Zoho's platform to create scalable business solutions.
-                <br /><br />
-                I'm always looking for ways to optimize code and improve performance, and I'm committed to staying up-to-date with the latest best practices and industry trends.
-                <br /><br />
-                I'm driven by a desire to create beautiful, intuitive interfaces and powerful backend systems that make users' lives easier and businesses more efficient.
+
+                My expertise spans Machine Learning, Deep Learning, Generative AI, LLMs, RAG, Agentic AI, NLP, Computer Vision, LangChain, LangGraph, TensorFlow, PyTorch, SQL, and AWS, with hands-on experience developing end-to-end AI solutions. <br /><br />
+
+                I also bring a strong software engineering foundation in Python, React, Node.js, Express.js, MongoDB, REST APIs, and Docker, enabling me to develop complete AI-powered applications from user interfaces and backend systems to deployment. <br /><br />
+
+                I have professional experience with the Zoho ecosystem, building enterprise applications, workflow automation, custom APIs, integrations, payment solutions, and scalable business systems. <br /><br />
+
+                I'm continuously exploring Generative AI, Agentic AI, RAG, MLOps, and cloud technologies, with a focus on building reliable, efficient, and impactful AI systems from development to production.
+
               </p>
+
             </div>
           </div>
           <div className="about-socials">
@@ -93,7 +96,7 @@ export const About = () => {
                 href=""
                 icon={faInstagram}
               ></FontAwesomeIcon>
-              <a href="https://www.instagram.com/luv2733/" target="_blank"><p>Instagram</p></a>
+              <a href="https://www.instagram.com/__luv_k__/" target="_blank"><p>Instagram</p></a>
             </Reveal>
           </div>
         </div>

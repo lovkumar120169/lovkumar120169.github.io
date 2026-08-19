@@ -18,7 +18,59 @@ export const Education = () => {
           <Container id="Education-container">
             <Row>
               <div className="timeline-edu">
+
                 <div className="container-edu left-container-edu">
+                  <div className="imgdiv">
+                    {/* <img src={masaiSchoollogo} alt="" /> */}
+                  </div>
+                  <div className="text-box-edu">
+                    <div
+                      className="namelogo"
+                      style={{
+                        display: "flex",
+                        justifyContent: "space-between",
+                        alignItems: "center",
+                        marginBottom: "20px",
+                      }}
+                    >
+                      <div>
+                        <h4
+                          style={{
+                            fontFamily: '"Montserrat", serif',
+                            fontWeight: "500",
+                          }}
+                        >
+                          Certification Program in Artificial Intelligence & Machine Learning
+                        </h4>
+                        <small style={{ fontWeight: "600" }}>
+                          July 2025 - Present
+                        </small>
+                      </div>
+                    </div>
+                    <hr />
+                    <div
+                      className="namelogo"
+                      style={{
+                        display: "flex",
+                        justifyContent: "space-between",
+                        alignItems: "center",
+                      }}
+                    >
+                      <div>
+                        <p style={{ fontWeight: "600", fontSize: "18px" }}>
+                          Institute : IIT Patna
+                        </p>
+                        <p>Address : IIT Patna, India</p>
+                      </div>
+                      <img src="/iit_patna_logo.jpeg" alt="" width={"20%"} />
+                    </div>
+
+                    <span className="left-container-arrow"></span>
+                  </div>
+                </div>
+
+
+                <div className="container-edu right-continer-edu">
                   <div className="imgdiv">
                     {/* <img src={masaiSchoollogo} alt="" /> */}
                   </div>
@@ -65,56 +117,6 @@ export const Education = () => {
                     </div>
 
                     <span className="left-container-arrow"></span>
-                  </div>
-                </div>
-
-                <div className="container-edu right-continer-edu">
-                  <div className="imgdiv">
-                    {/* <img src={culogo} alt="" /> */}
-                  </div>
-                  <div className="text-box-edu">
-                    <div
-                      className="namelogo"
-                      style={{
-                        display: "flex",
-                        justifyContent: "space-between",
-                        alignItems: "center",
-                        marginBottom: "20px",
-                      }}
-                    >
-                      <div>
-                        <h4
-                          style={{
-                            fontFamily: '"Montserrat", serif',
-                            fontWeight: "500",
-                          }}
-                        >
-                          Master of Computer Application (MCA)
-                        </h4>
-                        <small style={{ fontWeight: "600" }}>
-                          2022 -- 2024
-                        </small>
-                      </div>
-                    </div>
-                    <hr />
-                    <div
-                      className="namelogo"
-                      style={{
-                        display: "flex",
-                        justifyContent: "space-between",
-                        alignItems: "center",
-                      }}
-                    >
-                      <div>
-                        <p style={{ fontWeight: "600", fontSize: "18px" }}>
-                          Institute : Chandigarh University
-                        </p>
-                        <p>Address : Mohali, Punjab</p>
-                      </div>
-                      <img src="culogo.jpeg" alt="" width={"12%"} />
-                    </div>
-
-                    <span className="right-container-arrow"></span>
                   </div>
                 </div>
 

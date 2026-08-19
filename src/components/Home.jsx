@@ -32,12 +32,12 @@ export const Home = () => {
           <Reveal>
             <h1>
               I am <span id="user-detail-name">Lov</span> Kumar<i>.</i> I Build
-              things for the Web<i>.</i>
+              Intelligent AI Systems<i>.</i>
             </h1>
           </Reveal>
           <Reveal>
             <p id="user-detail-intro">
-              I am a Full Stack Developer with a strong design sensibility and a drive for crafting engaging user interfaces. Proficient in HTML, CSS, JavaScript, React, Redux, TypeScript, Express.js, Node.js, and MongoDB. Experienced with Chakra UI and Bootstrap frameworks, along with expertise in Zoho's ecosystem, including Zoho CRM, Zoho Creator, Zoho Catalyst, and other Zoho applications for building custom business solutions, automating processes, and integrating systems.
+              I am an AI Engineer focused on building scalable, production-ready AI applications and intelligent business solutions. Experienced in Machine Learning, Generative AI, LLMs, RAG, Agentic AI, NLP, Computer Vision, LangChain, LangGraph, SQL, and AWS. Strong software engineering background with Python, React, Node.js, Express.js, MongoDB, REST APIs, and Docker, enabling end-to-end AI application development and deployment. Also experienced with Zoho, business automation, custom integrations, APIs, and payment solutions.
             </p>
           </Reveal>
           <Reveal>

@@ -43,24 +43,7 @@ export const Stats = () => {
               />
             </div>
           </Reveal>
-          <Reveal>
-            <div>
-              <img
-                id="github-stats-card"
-                className="github-stats-card"
-                src="https://github-readme-stats.vercel.app/api?username=lovkumar120169&count_private=true&show_icons=true"
-                alt="Github Stats"
-              />
-            </div>
-          </Reveal>
-          <div>
-            <img
-              id="github-top-langs"
-              className="github-top-langs"
-              alt="Github Top Language"
-              src="https://github-readme-stats.vercel.app/api/top-langs/?username=lovkumar120169&layout=compact"
-            />
-          </div>
+       
         </div>
       </div>
     </STATS>

@@ -9,7 +9,12 @@ import {
   faLayerGroup,
   faMobileScreenButton,
   faWandMagicSparkles,
-  faBuilding
+  faBuilding,
+  faBrain,
+  faRobot,
+  faChartLine,
+  faCloud,
+  faCode
 } from "@fortawesome/free-solid-svg-icons";
 import { Reveal } from "./common/Reveal";
 
@@ -22,20 +27,69 @@ export function JobsTicker() {
         </Reveal> */}
         <Reveal>
           <Ticker duration={60} className="container">
+
             <JOBCARD>
               <FontAwesomeIcon
-                icon={faGlobe}
+                icon={faBrain}
                 className="icon"
-              ></FontAwesomeIcon>
-              WEB DEVELOPMENT
+              />
+              AI ENGINEERING
+            </JOBCARD>
+
+            <JOBCARD>
+              <FontAwesomeIcon
+                icon={faRobot}
+                className="icon"
+              />
+              GENERATIVE AI
+            </JOBCARD>
+
+            <JOBCARD>
+              <FontAwesomeIcon
+                icon={faLayerGroup}
+                className="icon"
+              />
+              AGENTIC AI & RAG
+            </JOBCARD>
+
+            <JOBCARD>
+              <FontAwesomeIcon
+                icon={faChartLine}
+                className="icon"
+              />
+              MACHINE LEARNING
+            </JOBCARD>
+
+            <JOBCARD>
+              <FontAwesomeIcon
+                icon={faCloud}
+                className="icon"
+              />
+              AWS & MLOPS
+            </JOBCARD>
+
+            <JOBCARD>
+              <FontAwesomeIcon
+                icon={faCode}
+                className="icon"
+              />
+              FULL STACK DEVELOPMENT
             </JOBCARD>
 
             <JOBCARD>
               <FontAwesomeIcon
                 icon={faBuilding}
                 className="icon"
-              ></FontAwesomeIcon>
+              />
               ZOHO DEVELOPMENT
+            </JOBCARD>
+
+            <JOBCARD>
+              <FontAwesomeIcon
+                icon={faGlobe}
+                className="icon"
+              ></FontAwesomeIcon>
+              WEB DEVELOPMENT
             </JOBCARD>
 
             <JOBCARD>
@@ -59,13 +113,6 @@ export function JobsTicker() {
               WIREFRAMING
             </JOBCARD>
 
-            <JOBCARD>
-              <FontAwesomeIcon
-                icon={faMobileScreenButton}
-                className="icon"
-              ></FontAwesomeIcon>
-              RESPONSIVE DESIGN
-            </JOBCARD>
 
             <JOBCARD>
               <FontAwesomeIcon
