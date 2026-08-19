@@ -11,20 +11,29 @@ export const Projects = () => {
   const project = {
     data: [
       {
-        name: "Lumora AI — Agentic RAG & AI Research Assistant",
-        desc: "Built an intelligent Agentic + Corrective RAG research assistant with hybrid retrieval, web tools, reranking, confidence scoring, citations, and contextual conversations.",
-        img: "/LumoraAI.png",
+        name: "D2C Customer Churn Prediction Service - Churn Signal",
+        desc: "Built an end-to-end D2C churn prediction platform achieving ~0.86 ROC-AUC and <150 ms real-time inference, with FastAPI scoring APIs, risk classification, retention explanations, and batch scoring for 10k+ customers.",
+        img: "/d2d_customer_churn.png",
         file: "link",
-        demoLink: "https://lumora-ai.streamlit.app/",
-        codeLink: "https://github.com/lovkumar120169/Lumora-AI",
-        techstack: ["Python", "Streamlit", "LangChain", "Google Gemini", "ChromaDB", "RAG", "SerpAPI"],
+        demoLink: "https://churnsignald2c.netlify.app/",
+        codeLink: "https://github.com/lovkumar120169/D2C-Customer-Churn-Prediction-Service",
+        techstack: [
+          "Python",
+          "Scikit-learn",
+          "FastAPI",
+          "React",
+          "Vite",
+          "Tailwind CSS",
+          "Pydantic",
+          "Docker"
+        ],
       },
       {
         name: "Enterprise AI Agent — AWS Deployment",
         desc: "Built and deployed a production-ready Agentic AI system using Amazon Bedrock, RAG, tool calling, Knowledge Bases, and Guardrails, with automated AWS infrastructure and CI/CD deployment.",
         img: "/EnterpriseAI.png",
         file: "video",
-        demoLink: "https://drive.google.com/file/d/1Yp6kBWLuUbPphXRAFhYmbhyyLmFgemWB/view",
+        demoLink: "https://drive.google.com/file/d/1CVvFiPKkx6HoV_GLHCYlo4B9LV2X4-Xj/view?usp=sharing/file/d/1Yp6kBWLuUbPphXRAFhYmbhyyLmFgemWB/view",
         codeLink: "https://github.com/lovkumar120169/Enterprise-AI-Agent",
         techstack: [
           "Python",
@@ -36,15 +45,14 @@ export const Projects = () => {
           "GitHub Actions"
         ],
       },
-
       {
-        name: "D2C Customer Churn Prediction Service",
-        desc: "Built a production-ready ML service to predict D2C customer churn using binary classification, delivering real-time churn probability, risk categories, and retention explanations through a FastAPI scoring API.",
-        img: "/d2d_customer_churn.png",
-        file: "github",
-        demoLink: "",
-        codeLink: "https://github.com/lovkumar120169/D2C-Customer-Churn-Prediction-Service",
-        techstack: ["Python", "Scikit-learn", "FastAPI", "Pydantic", "Docker"],
+        name: "Lumora AI — Agentic RAG & AI Research Assistant",
+        desc: "Built an intelligent Agentic + Corrective RAG research assistant with hybrid retrieval, web tools, reranking, confidence scoring, citations, and contextual conversations.",
+        img: "/LumoraAI.png",
+        file: "link",
+        demoLink: "https://lumora-ai.streamlit.app/",
+        codeLink: "https://github.com/lovkumar120169/Lumora-AI",
+        techstack: ["Python", "Streamlit", "LangChain", "Google Gemini", "ChromaDB", "RAG", "SerpAPI"],
       },
       {
         name: "Trendz",

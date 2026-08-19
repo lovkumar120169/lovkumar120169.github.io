@@ -12,7 +12,7 @@ import styled from "styled-components";
 export const Home = () => {
   function openHandler() {
     window.open(
-      "https://drive.google.com/file/d/1eGnAXV8bAMlpvhtvMARS6CFeh5LLy20V/view?usp=sharing/view?usp=sharing",
+      "https://drive.google.com/file/d/1CVvFiPKkx6HoV_GLHCYlo4B9LV2X4-Xj/view?usp=sharing/file/d/1eGnAXV8bAMlpvhtvMARS6CFeh5LLy20V/view?usp=sharing/view?usp=sharing",
       "_blank"
     );
   }
