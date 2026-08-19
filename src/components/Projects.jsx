@@ -11,9 +11,46 @@ export const Projects = () => {
   const project = {
     data: [
       {
+        name: "Lumora AI — Agentic RAG & AI Research Assistant",
+        desc: "Built an intelligent Agentic + Corrective RAG research assistant with hybrid retrieval, web tools, reranking, confidence scoring, citations, and contextual conversations.",
+        img: "/LumoraAI.png",
+        file: "link",
+        demoLink: "https://lumora-ai.streamlit.app/",
+        codeLink: "https://github.com/lovkumar120169/Lumora-AI",
+        techstack: ["Python", "Streamlit", "LangChain", "Google Gemini", "ChromaDB", "RAG", "SerpAPI"],
+      },
+      {
+        name: "Enterprise AI Agent — AWS Deployment",
+        desc: "Built and deployed a production-ready Agentic AI system using Amazon Bedrock, RAG, tool calling, Knowledge Bases, and Guardrails, with automated AWS infrastructure and CI/CD deployment.",
+        img: "/EnterpriseAI.png",
+        file: "video",
+        demoLink: "https://drive.google.com/file/d/1Yp6kBWLuUbPphXRAFhYmbhyyLmFgemWB/view",
+        codeLink: "https://github.com/lovkumar120169/Enterprise-AI-Agent",
+        techstack: [
+          "Python",
+          "Streamlit",
+          "Amazon Bedrock",
+          "RAG",
+          "AWS ECS Fargate",
+          "Docker",
+          "GitHub Actions"
+        ],
+      },
+
+      {
+        name: "D2C Customer Churn Prediction Service",
+        desc: "Built a production-ready ML service to predict D2C customer churn using binary classification, delivering real-time churn probability, risk categories, and retention explanations through a FastAPI scoring API.",
+        img: "/d2d_customer_churn.png",
+        file: "github",
+        demoLink: "",
+        codeLink: "https://github.com/lovkumar120169/D2C-Customer-Churn-Prediction-Service",
+        techstack: ["Python", "Scikit-learn", "FastAPI", "Pydantic", "Docker"],
+      },
+      {
         name: "Trendz",
         desc: "Creating a fashion e-commerce platform, a clone inspired by Koovs.com. It aims to replicate Koovs.com's success while introducing unique features. With a user-friendly interface, a diverse product catalog.",
         img: "/Trendz.png",
+        file: "link",
         demoLink: "https://koovs-clone-trendz.netlify.app/",
         codeLink: "https://github.com/lovkumar120169/Koovs-Clone",
         techstack: ["HTML5", "CSS", "JavaScript", "React", "Json Server", "Chakra UI"],
@@ -22,28 +59,14 @@ export const Projects = () => {
         name: "Puzzle Innovationz",
         desc: "Clone of Puzzle Innovationz it is a UI/UX design bootcamp for honing design skills, mastering industry tools, and creating exceptional user experiences.",
         img: "/puzzle_innovationz.png",
+        file: "link",
         demoLink: "https://65083cd99d357c5da40d9d62--musical-cat-2367fd.netlify.app/",
         codeLink: "https://github.com/lovkumar120169/Puzzle-Innovationz--Clone",
-        techstack: ["HTML5", "CSS", "JavaScript", "Bootstrap"],
-      },
-      {
-        name: "Immortal Yoga",
-        desc: "IMMORTAL YOGA offers an array of yoga styles, ranging from the dynamic flow of Vinyasa to the meditative depths of Yin.",
-        img: "/immortalyoga.png",
-        demoLink: "https://gleaming-cobbler-bec2a7.netlify.app/",
-        codeLink: "https://github.com/lovkumar120169/Immortal-Yoga",
-        techstack: ["HTML5", "CSS", "JavaScript", "React", "Google Auth", "Json Server", "Chakra UI"],
-      }, {
-        name: "Art Gallery",
-        desc: "This clone of the Marian Goodman Gallery website presents an extensive collection of artworks by renowned and influential artists",
-        img: "./Art_gallery.png",
-        demoLink: "https://client-steel-gamma.vercel.app/",
-        codeLink: "https://github.com/lovkumar120169/Art-Gallery",
-        techstack: ["HTML5", "CSS", "JavaScript", "React", "Redux", "Node.js", "Express.js", "MongoDB", "Chakra UI"]
-        ,
+        techstack: ["HTML5", "CSS", "Bootstrap"],
       }
     ],
   };
+
   return (
     <PROJECTS id="projects">
       <Reveal>
@@ -53,42 +76,85 @@ export const Projects = () => {
       <div>
         {project.data.map((ele, ind) => {
           return (
-
-            <div class="projects__row project-card" >
-              <div class="projects__row-img-cont" >
+            <div class="projects__row project-card" key={ind}>
+              <div class="projects__row-img-cont">
                 <img src={ele.img} alt="Software Screenshot" class="projects__row-img" loading="lazy" />
               </div>
               <div class="projects__row-content">
-                <h3 class="projects__row-content-title project-title">{ele.name}
-                </h3>
+                <h3 class="projects__row-content-title project-title">{ele.name}</h3>
                 <p class="projects__row-content-desc project-description">
                   {ele.desc}
                 </p>
                 <p class="projects__row-content-desc project-description">
                   <strong style={{ color: "#DFA464" }}>
                     {ele.techstack.map((el, ind) => {
-
                       if (ele.techstack[ele.techstack.length - 1] == el) {
                         return (
-                          <span>{el}</span>
+                          <span key={ind}>{el}</span>
                         )
                       } else {
                         return (
-                          <span>{el} | </span>
+                          <span key={ind}>{el} | </span>
                         )
                       }
-
-
                     })}
                   </strong>
                 </p>
-                <div className="projects-link-bnts" >
-                  <div >
-                    <a href={ele.demoLink} target="_blank" className="project-deployed-link"> <button style={{ fontWeight: "600", padding: "10px 25px", border: "none", backgroundColor: "#DFA464", color: "white", borderRadius: "5px", width: "100%" }}>Live</button></a>
-                  </div>
-                  <div >
-                    <a href={ele.codeLink} target="_blank" className="project-github-link" > <button style={{ fontWeight: "600", padding: "10px 25px", border: "none", backgroundColor: "#DFA464", color: "white", borderRadius: "5px", width: "100%" }}>Github</button></a>
-                  </div>
+
+                {/* ✅ Button logic based on file key */}
+                <div className="projects-link-bnts">
+
+                  {/* file: "link" — show both Live and Github */}
+                  {ele.file === "link" && (
+                    <>
+                      <div>
+                        <a href={ele.demoLink} target="_blank" className="project-deployed-link">
+                          <button style={{ fontWeight: "600", padding: "10px 25px", border: "none", backgroundColor: "#DFA464", color: "white", borderRadius: "5px", width: "100%" }}>
+                            Live
+                          </button>
+                        </a>
+                      </div>
+                      <div>
+                        <a href={ele.codeLink} target="_blank" className="project-github-link">
+                          <button style={{ fontWeight: "600", padding: "10px 25px", border: "none", backgroundColor: "#DFA464", color: "white", borderRadius: "5px", width: "100%" }}>
+                            Github
+                          </button>
+                        </a>
+                      </div>
+                    </>
+                  )}
+
+                  {/* file: "github" — show only Github button */}
+                  {ele.file === "github" && (
+                    <div>
+                      <a href={ele.codeLink} target="_blank" className="project-github-link">
+                        <button style={{ fontWeight: "600", padding: "10px 25px", border: "none", backgroundColor: "#DFA464", color: "white", borderRadius: "5px", width: "100%" }}>
+                          Github
+                        </button>
+                      </a>
+                    </div>
+                  )}
+
+                  {/* file: "video" — show Video and Github buttons */}
+                  {ele.file === "video" && (
+                    <>
+                      <div>
+                        <a href={ele.demoLink} target="_blank" className="project-deployed-link">
+                          <button style={{ fontWeight: "600", padding: "10px 25px", border: "none", backgroundColor: "#DFA464", color: "white", borderRadius: "5px", width: "100%" }}>
+                            Video
+                          </button>
+                        </a>
+                      </div>
+                      <div>
+                        <a href={ele.codeLink} target="_blank" className="project-github-link">
+                          <button style={{ fontWeight: "600", padding: "10px 25px", border: "none", backgroundColor: "#DFA464", color: "white", borderRadius: "5px", width: "100%" }}>
+                            Github
+                          </button>
+                        </a>
+                      </div>
+                    </>
+                  )}
+
                 </div>
               </div>
             </div>
@@ -96,20 +162,7 @@ export const Projects = () => {
         })}
       </div>
 
-      {/* <div className="project-container" id="projects">
-        <div id="projects" className="container width">
-          <div className="row row-gap">
-            {project.data.map((elem, index) => {
-              return <Card key={index} data={elem} />;
-            })}
-          </div>
-        </div>
-      </div> */}
-
-
-
     </PROJECTS>
-
   );
 };
 

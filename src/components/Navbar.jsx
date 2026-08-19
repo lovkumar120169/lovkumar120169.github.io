@@ -47,7 +47,7 @@ export const Navbar = () => {
   }, [isSmallScreen]);
   function openHandler() {
     window.open(
-      "https://drive.google.com/file/d/1uUDTpKnC9cHXUQIcxgSMhiDPDqBO0Me7/view?usp=sharing",
+      "https://drive.google.com/file/d/1eGnAXV8bAMlpvhtvMARS6CFeh5LLy20V/view?usp=sharing/view?usp=sharing",
       "_blank"
     );
   }
@@ -251,7 +251,7 @@ const Sidebar = styled.div`
 const OriginalNav = () => {
   function openHandler() {
     window.open(
-      "https://drive.google.com/file/d/1uUDTpKnC9cHXUQIcxgSMhiDPDqBO0Me7/view?usp=sharing",
+      "https://drive.google.com/file/d/1eGnAXV8bAMlpvhtvMARS6CFeh5LLy20V/view?usp=sharing/view?usp=sharing",
       "_blank"
     );
   }
